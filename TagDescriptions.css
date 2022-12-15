@@ -16,7 +16,12 @@
 |* Storytelling Tropes *|
 \*---------------------*/
  
-/* OP MC */           .data.tags span a[href*="OP%20MC"]::before { content: "The main character (MC) is overpowered (OP). \a\a More often than not, any combat has little to no suspense."; }
+/* OP MC */ .data.tags span a[href*="OP%20MC"]::before { content: 
+        /**/ "The protagonist is just plain overpowered" /*/". "/*/", "/*/
+        /**/ "usually to the story's detriment." /**/
+        /*/ "\a\a" /**/
+        /*/ "More often than not, any combat has little to no suspense as they're leagues above any opponents they may face. " /**/
+    ;}
 
 
 
@@ -24,13 +29,33 @@
 |* Character Tropes *|
 \*------------------*/
  
-/* Loli */            .data.tags span a[href*="Loli"]::before { content: "Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age).\a\a Lolis are part of the main cast, or otherwise very prevalent."; } 
-/* Shota */           .data.tags span a[href*="Shota"]::before { content: "Shota (): Male character with the appearance of a pre-pubescent boy (regardless of age).\a\a Shotas are part of the main cast, or otherwise very prevalent."; }  
+/* Loli */ .data.tags span a[href*="Loli"]::before { content: 
+        /*/"Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
+        /*/ "\a\a" /**/
+        /**/ "Lolis are part of the main cast, or otherwise very prevalent. " /**/
+    ;} 
+/* Shota */ .data.tags span a[href*="Shota"]::before { content: 
+        /*/"Shota (): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
+        /*/ "\a\a" /**/
+        /**/ "Shotas are part of the main cast, or otherwise very prevalent. " /**/
+    ;}  
  
-/* Monster Girl */    .data.tags span a[href*="Monster%20Girl"]::before { content: "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. \a\a Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent."; }
+/* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
+        /*/"Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
+        /*/ "\a\a" /**/
+        /**/ "Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent. " /**/
+    ;}
 
-/* Anthro */          .data.tags span a[href*="Anthro"]::before { content: "Anthro: Humanized animal or object.\a\a Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent."; }
-/* Kemonomimi */      .data.tags span a[href*="Kemonomimi"]::before { content: "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. \a\a Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent."; } 
+/* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
+        /*/"Anthro: Humanized animal or object. " /**/
+        /*/ "\a\a" /**/
+        /**/ "Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent. " /**/
+    ;}
+/* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
+        /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
+        /*/ "\a\a" /**/
+        /**/ "Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent. " /**/
+    ;} 
 
 
 
@@ -38,5 +63,15 @@
 |* Worldbuilding Tropes *|
 \*----------------------*/
  
-/* Isekai */          .data.tags span a[href*="Isekai"]::before { content: "Isekai (異世界): \"different world\" or \"otherworld\". \a\a Character(s) from a normal world are transferred or resurrected into a fantasy world."; }
-/* Reverse Isekai */  .data.tags span a[href*="Reverse%20Isekai"]::before { content: "Isekai (異世界): \"different world\" or \"otherworld\". \a\a Character(s) from a fantasy world are brought to a normal world. Characters may or may not lose their their magical powers."; }
+/* Isekai */ .data.tags span a[href*="Isekai"]::before { content: 
+        /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
+        /*/ "\a\a" /**/
+        /**/ "Character(s) from a normal world are transferred or resurrected into a fantasy world. " /**/
+        /*/ "Usually given some kind of blessing or skill early on. " /**/
+    ;}
+/* Reverse Isekai */ .data.tags span a[href*="Reverse%20Isekai"]::before { content: 
+        /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
+        /*/ "\a\a" /**/
+        /**/ "Character(s) from a fantasy world are transferred to a normal world. " /**/
+        /*/ "They may or may not lose their their magical powers in the process. " /**/
+    ;}
