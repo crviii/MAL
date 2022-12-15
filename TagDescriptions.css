@@ -1,0 +1,43 @@
+.data.tags {
+    overflow:visible;z-index:99;
+}
+.data.tags span a::before,
+.data.tags span a::after {
+    position:absolute;left:50%;z-index:9;width:max-content;max-width:275px;padding:6px;background:#181818;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,0.75);color:#fff;white-space:pre-wrap;opacity:0;transform:translateX(-50%);transition:opacity 0.3s ease;pointer-events:none;text-align:center;
+} 
+.data.tags span a:hover::after {
+    opacity:1;
+}
+.data.tags span a::after {
+    top:calc(100% + 5px);
+}
+
+
+/*---------------------*\
+|* Storytelling Tropes *|
+\*---------------------*/
+ 
+/* OP MC */           .data.tags span a[href*="OP%20MC"]::after { content: "The main character (MC) is overpowered (OP). \a\a More often than not, any combat has little to no suspense."; }
+
+
+
+/*------------------*\
+|* Character Tropes *|
+\*------------------*/
+ 
+/* Loli */            .data.tags span a[href*="Loli"]::after { content: "Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age).\a\a Lolis are part of the main cast, or otherwise very prevalent."; } 
+/* Loli */            .data.tags span a[href*="Shota"]::after { content: "Shota (): Male character with the appearance of a pre-pubescent boy (regardless of age).\a\a Shotas are part of the main cast, or otherwise very prevalent."; }  
+ 
+/* Monster Girl */    .data.tags span a[href*="Monster%20Girl"]::after { content: "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. \a\a Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent."; }
+
+/* Anthro */          .data.tags span a[href*="Anthro"]::after { content: "Anthro: Humanized animal or object.\a\a Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent."; }
+/* Kemonomimi */      .data.tags span a[href*="Kemonomimi"]::after { content: "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. \a\a Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent."; } 
+
+
+
+/*----------------------*\
+|* Worldbuilding Tropes *|
+\*----------------------*/
+ 
+/* Isekai */          .data.tags span a[href*="Isekai"]::after { content: "Isekai (異世界): \"different world\" or \"otherworld\". \a\a Character(s) from a normal world are transferred or resurrected into a fantasy world."; }
+/* Reverse Isekai */  .data.tags span a[href*="Reverse%20Isekai"]::after { content: "Isekai (異世界): \"different world\" or \"otherworld\". \a\a Character(s) from a fantasy world are brought to a normal world. Characters may or may not lose their their magical powers."; }
