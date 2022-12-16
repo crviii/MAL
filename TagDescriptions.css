@@ -17,7 +17,7 @@
 \*---------------------*/
  
 /* OP MC */ .data.tags span a[href*="OP%20MC"]::before { content: 
-        /**/ "The protagonist is just plain overpowered" /*/". "/*/", "/*/
+        /**/ "The protagonist has cheat mechanics or is just plain overpowered" /*/". "/*/", "/*/
         /**/ "usually to the story's detriment." /**/
         /*/ "\a\a" /**/
         /*/ "More often than not, any combat has little to no suspense as they're leagues above any opponents they may face. " /**/
@@ -32,29 +32,29 @@
 /* Loli */ .data.tags span a[href*="Loli"]::before { content: 
         /*/"Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Lolis are part of the main cast, or otherwise very prevalent. " /**/
+        /**/ "Loli are part of the main cast, or otherwise very prominent. " /**/
     ;} 
 /* Shota */ .data.tags span a[href*="Shota"]::before { content: 
         /*/"Shota (): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Shotas are part of the main cast, or otherwise very prevalent. " /**/
+        /**/ "Shota are part of the main cast, or otherwise very prominent. " /**/
     ;}  
  
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
         /*/"Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
         /*/ "\a\a" /**/
-        /**/ "Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent. " /**/
+        /**/ "Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very prominent. " /**/
     ;}
 
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
         /*/"Anthro: Humanized animal or object. " /**/
         /*/ "\a\a" /**/
-        /**/ "Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent. " /**/
+        /**/ "Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very prominent. " /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
         /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
         /*/ "\a\a" /**/
-        /**/ "Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very prevalent. " /**/
+        /**/ "Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very prominent. " /**/
     ;} 
 
 
