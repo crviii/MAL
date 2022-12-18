@@ -86,15 +86,19 @@
     ;}
 /* Reverse Isekai */ .data.tags span a[href*="Reverse%20Isekai"]::before { content: 
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
+        /*/ "\a" /**/
+        /*/ "Subgenre of the 'Isekai' genre. " /**/
         /*/ "\a\a" /**/
         /**/ "Character(s) from a fantasy world are transferred to a normal world. " /**/
         /*/ "They may or may not lose their their magical powers in the process. " /**/
     ;}
 /* CGDCT */ .data.tags span a[href*="CGDCT"]::before { content: 
         /*/ "\"Cute Girls Doing Cute Things\". " /**/
+        /*/ "\a" /**/
+        /*/ "Subgenre of the 'Slice of Life' genre. " /**/
         /*/ "\a\a" /**/
-        /**/ "Subgenre of the 'Slice of Life'-genre. " /**/
-        /**/ "An (almost) exclusively female cast doing everyday stuff such as going to school/work, or doing outdoor activities." /**/
+        /**/ "An (almost) exclusively female cast doing everyday stuff " /*/". "/*/", "/**/
+        /**/ "such as going to school/work or doing outdoor activities." /**/
     ;}
 
 /*------------------*\
