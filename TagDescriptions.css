@@ -2,13 +2,28 @@
     overflow:visible;z-index:99;
 }
 .data.tags span a::before {
-    position:absolute;left:50%;z-index:9;width:max-content;max-width:275px;padding:6px;background:#181818;border-radius:6px;box-shadow:0 1px 3px rgba(0,0,0,0.75);color:#fff;white-space:pre-wrap;opacity:0;transform:translateX(-50%);transition:opacity 0.3s ease;pointer-events:none;text-align:center;
+    position: absolute;
+    left: 50%;
+    z-index: 9;
+    width: max-content;
+    max-width: 275px;
+    padding: 6px;
+    background: #181818;
+    border-radius: 6px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.75);
+    color: #fff;
+    white-space: pre-wrap;
+    opacity: 0;
+    transform: translateX(-50%);
+    transition: opacity 0.3s ease;
+    pointer-events: none;
+    text-align: center;
 } 
 .data.tags span a:hover::before {
-    opacity:1;
+    opacity: 1;
 }
 .data.tags span a::before {
-    top:calc(100% + 5px);
+    top: calc(100% + 5px);
 }
 
 
@@ -17,7 +32,7 @@
 \*---------------------*/
  
 /* OP MC */ .data.tags span a[href*="OP%20MC"]::before { content: 
-        /**/ "The protagonist has cheat mechanics or is just plain overpowered" /*/". "/*/", "/*/
+        /**/ "The protagonist has cheat mechanics or is just plain overpowered" /*/". "/*/", "/**/
         /**/ "usually to the story's detriment." /**/
         /*/ "\a\a" /**/
         /*/ "More often than not, any combat has little to no suspense as they're leagues above any opponents they may face. " /**/
@@ -59,9 +74,9 @@
 
 
 
-/*----------------------*\
-|* Worldbuilding Tropes *|
-\*----------------------*/
+/*------------*\
+|* Genre Tags *|
+\*------------*/
  
 /* Isekai */ .data.tags span a[href*="Isekai"]::before { content: 
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
@@ -75,3 +90,14 @@
         /**/ "Character(s) from a fantasy world are transferred to a normal world. " /**/
         /*/ "They may or may not lose their their magical powers in the process. " /**/
     ;}
+/* CGDCT */ .data.tags span a[href*="CGDCT"]::before { content: 
+        /*/ "\"Cute Girls Doing Cute Things\". " /**/
+        /*/ "\a\a" /**/
+        /**/ "Subgenre of the 'Slice of Life'-genre. " /**/
+        /**/ "An (almost) exclusively female cast doing everyday stuff such as going to school/work, or doing outdoor activities." /**/
+    ;}
+
+/*------------------*\
+|* Opinionated Tags *|
+\*------------------*/
+
