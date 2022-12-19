@@ -70,7 +70,7 @@
         /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
         /*/ "\a\a" /**/
         /**/ "Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very prominent. " /**/
-    ;} 
+    ;}
 
 
 
@@ -98,10 +98,13 @@
         /*/ "Subgenre of the 'Slice of Life' genre. " /**/
         /*/ "\a\a" /**/
         /**/ "An (almost) exclusively female cast doing everyday stuff " /*/". "/*/", "/**/
-        /**/ "such as going to school/work or doing outdoor activities." /**/
+        /**/ "such as going to school or work, or doing outdoor activities." /**/
     ;}
 
-/*------------------*\
-|* Opinionated Tags *|
-\*------------------*/
 
+
+/*-------------------------------*\
+|* Opinionated or Headcanon Tags *|
+\*-------------------------------*/
+
+/* unnamed */ .data.tags span a[href*="stop"]::before { content: "Just stop.";}
