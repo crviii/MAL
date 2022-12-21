@@ -39,7 +39,8 @@
         /**/ "The protagonist has cheat mechanics or is just plain overpowered" /*/". "/*/", "/**/
         /**/ "usually to the story's detriment." /**/
         /*/ "\a\a" /**/
-        /*/ "More often than not, any combat has little to no suspense as they're leagues above any opponents they may face. " /**/
+        /*/ "Combat scenes have little to no suspense, as the protagonist is leagues above any opponents they may face and often have no weaknesses. " /**/
+        /*/ "Even if the protagonist is not involved at the start of combat, they may appear near the end of the battle to save the day." /**/
     ;}
 
 
@@ -51,29 +52,29 @@
 /* Loli */ .data.tags span a[href*="Loli"]::before { content: 
         /*/"Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Loli are part of the main cast, or otherwise very prominent. " /**/
+        /**/ "Loli are part of the main cast, or otherwise very noticeable. " /**/
     ;} 
 /* Shota */ .data.tags span a[href*="Shota"]::before { content: 
-        /*/"Shota (): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
+        /*/"Shota (ショタ): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Shota are part of the main cast, or otherwise very prominent. " /**/
+        /**/ "Shota are part of the main cast, or otherwise very noticeable. " /**/
     ;}  
  
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
         /*/"Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
         /*/ "\a\a" /**/
-        /**/ "Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very prominent. " /**/
+        /**/ "Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very noticeable. " /**/
     ;}
 
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
         /*/"Anthro: Humanized animal or object. " /**/
         /*/ "\a\a" /**/
-        /**/ "Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very prominent. " /**/
+        /**/ "Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very noticeable. " /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
         /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
         /*/ "\a\a" /**/
-        /**/ "Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very prominent. " /**/
+        /**/ "Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very noticeable. " /**/
     ;}
 
 
@@ -111,6 +112,10 @@
 |*    Personal  Opinions    *|
 |* To remind my future self *|
 \*--------------------------*/
+:root {
+    --PO: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a "
+}
 
-/* PO Trip-up */ .data.tags span a[href*="PO%20Trip-up"]::before { content: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a This season is somewhat worse than the previous season(s), watching it may be a hassle but it becomes better.";}
-/* PO Fallen */ .data.tags span a[href*="PO%20Fallen"]::before { content: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a This season is so much worse than the previous season(s), you'd do yourself a favour considering previous season to have been the final one.";}
+/* PO Hiccup */ .data.tags span a[href*="PO%20Hiccup"]::before { content: var(--PO) "This season is a bit worse than the previous season(s), but still good.";} /* Rare, a hiccup often becomes a stumble */
+/* PO Stumble */ .data.tags span a[href*="PO%20Stumble"]::before { content: var(--PO) "This season is somewhat worse than the previous season(s), It is still watchable, but dont expect it to get better either.";}
+/* PO Fallen */ .data.tags span a[href*="PO%20Fallen"]::before { content: var(--PO) "This season is noticeably worse than the previous season(s), you'd do yourself a favour considering previous season to have been the final one.";}
