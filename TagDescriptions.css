@@ -31,6 +31,12 @@
 }
 
 
+:root {
+    --PO: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a ";
+    --common: "part of the main cast, or otherwise very noticeable. ";
+}
+
+
 /*---------------------*\
 |* Storytelling Tropes *|
 \*---------------------*/
@@ -52,29 +58,29 @@
 /* Loli */ .data.tags span a[href*="Loli"]::before { content: 
         /*/"Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Loli are part of the main cast, or otherwise very noticeable. " /**/
+        /**/ "Loli are " var(--common) /**/
     ;} 
 /* Shota */ .data.tags span a[href*="Shota"]::before { content: 
         /*/"Shota (ショタ): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Shota are part of the main cast, or otherwise very noticeable. " /**/
+        /**/ "Shota are " var(--common) /**/
     ;}  
  
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
         /*/"Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
         /*/ "\a\a" /**/
-        /**/ "Monster girls are the dominant lifeform in the story, part of the main cast, or otherwise very noticeable. " /**/
+        /**/ "Monster girls are the dominant lifeform in the story, " var(--common) /**/
     ;}
 
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
         /*/"Anthro: Humanized animal or object. " /**/
         /*/ "\a\a" /**/
-        /**/ "Anthros are the dominant lifeform in the story, part of the main cast, or otherwise very noticeable. " /**/
+        /**/ "Anthros are the dominant lifeform in the story, " var(--common) /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
         /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
         /*/ "\a\a" /**/
-        /**/ "Kemonomimi are the dominant lifeform in the story, part of the main cast, or otherwise very noticeable. " /**/
+        /**/ "Kemonomimi are the dominant lifeform in the story, " var(--common) /**/
     ;}
 
 
@@ -112,9 +118,6 @@
 |*    Personal  Opinions    *|
 |* To remind my future self *|
 \*--------------------------*/
-:root {
-    --PO: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a "
-}
 
 /* PO Hiccup */ .data.tags span a[href*="PO%20Hiccup"]::before { content: var(--PO) "This season is a bit worse than the previous season(s), but still good.";} /* Rare, a hiccup often becomes a stumble */
 /* PO Stumble */ .data.tags span a[href*="PO%20Stumble"]::before { content: var(--PO) "This season is somewhat worse than the previous season(s), It is still watchable, but dont expect it to get better either.";}
