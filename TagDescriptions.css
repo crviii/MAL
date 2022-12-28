@@ -33,7 +33,7 @@
 
 :root {
     --PO: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a ";
-    --common: "part of the main cast, or otherwise very noticeable. ";
+    --focus: "the main focus of the story, the majority of the main cast, or otherwise very noticeable. ";
 }
 
 
@@ -55,32 +55,40 @@
 |* Character Tropes *|
 \*------------------*/
  
-/* Loli */ .data.tags span a[href*="Loli"]::before { content: 
-        /*/"Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
+/* Loli */ .data.tags span a[href*="Loli"]::before { content:
+   /* Toddlers are not loli. */
+        /*/ "Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Loli are " var(--common) /**/
+        /**/ "Loli are " var(--focus) /**/
     ;} 
 /* Shota */ .data.tags span a[href*="Shota"]::before { content: 
-        /*/"Shota (ショタ): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
+        /*/ "Shota (ショタ): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Shota are " var(--common) /**/
+        /**/ "Shota are " var(--focus) /**/
     ;}  
- 
-/* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
-        /*/"Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
-        /*/ "\a\a" /**/
-        /**/ "Monster girls are the dominant lifeform in the story, " var(--common) /**/
-    ;}
 
-/* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
-        /*/"Anthro: Humanized animal or object. " /**/
+/* Talking Animal */ .data.tags span a[href*="Talking%20Animal"]::before { content: 
+   /* If the animal's anatomy has been significantly changed to more resemble a human's, it's an Anthro.
+    * Sailor Moon's Luna is a Talking Animal with an expressive face.
+    * Fairy Tail's Happy is an Anthro. */
+        /*/ "Talking Animal: Animals, sometimes with expressive faces." /**/
         /*/ "\a\a" /**/
-        /**/ "Anthros are the dominant lifeform in the story, " var(--common) /**/
+        /**/ "Talking animals are " var(--focus) /**/
+    ;}
+/* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
+        /*/ "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
+        /*/ "\a\a" /**/
+        /**/ "Monster girls are " var(--focus) /**/
+    ;}
+/* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
+        /*/ "Anthro: Humanized animal or object. " /**/
+        /*/ "\a\a" /**/
+        /**/ "Anthros are " var(--focus) /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
         /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
         /*/ "\a\a" /**/
-        /**/ "Kemonomimi are the dominant lifeform in the story, " var(--common) /**/
+        /**/ "Kemonomimi are " var(--focus) /**/
     ;}
 
 
