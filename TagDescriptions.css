@@ -2,8 +2,8 @@
 /* Now all we have to do is pray, and hope I don't forget this github exists... */
 
 .data.tags {
-    overflow:visible;
-    z-index:99;
+    overflow: visible;
+    z-index: 99;
 }
 .data.tags span a::before {
     position: absolute;
@@ -75,15 +75,17 @@
         /*/ "\a\a" /**/
         /**/ "Talking animals are " var(--focus) /**/
     ;}
-/* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
-        /*/ "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
-        /*/ "\a\a" /**/
-        /**/ "Monster girls are " var(--focus) /**/
-    ;}
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
         /*/ "Anthro: Humanized animal or object. " /**/
         /*/ "\a\a" /**/
         /**/ "Anthros are " var(--focus) /**/
+    ;}
+/* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
+   /* Different from an anthro, in that instead of being an animal that looks like a human, it's a human, with some part animal.
+    * Monster Musume no Iru Nichijou is all about Monster Girls and the characters serve as a perfect examples of monster girls. */
+        /*/ "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
+        /*/ "\a\a" /**/
+        /**/ "Monster girls are " var(--focus) /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
         /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
