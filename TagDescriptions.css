@@ -33,6 +33,9 @@
 
 :root {
     --PO: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a ";
+    --gudPO: green;
+    --badPO: orange;
+    --shitPO: red;
     --focus: "the main focus of the story, the majority of the main cast, or otherwise very noticeable. ";
 }
 
@@ -130,11 +133,13 @@
 \*--------------------------*/
 
 /* Story */
-/* PO Hiccup */ .data.tags span a[href*="PO%20Hiccup"]::before { content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, a hiccup often becomes a stumble */
-/* PO Stumble */ .data.tags span a[href*="PO%20Stumble"]::before { content: var(--PO) "The story slowly becomes worse the longer it goes on, It is still watchable/readable, but dont expect it to get better either.";}
-/* PO Fallen */ .data.tags span a[href*="PO%20Fallen"]::before { content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
-/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { content: var(--PO) "\"The show must go on!\" \a Integrity gets thrown out of the window for the sake of making the story continue. This can still turn into something good but don't count on it.")
+/* PO Hiccup */ .data.tags span a[href*="PO%20Hiccup"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, a hiccup often becomes a stumble */
+/* PO Stumble */ .data.tags span a[href*="PO%20Stumble"]::before { color: var(--shitPO); content: var(--PO) "The story slowly becomes worse the longer it goes on, It is still watchable/readable but it won't get better.";}
+/* PO Fallen */ .data.tags span a[href*="PO%20Fallen"]::before { color: var(--shitPO); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
 
+/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--badPO); content: var(--PO) "\"The show must go on!\" \a Integrity gets thrown out of the window for the sake of making the story continue. This can still turn into something good but don't count on it.")
+
+    
 /* Art */
-/* PO Well-drawn*/ .data.tags span a[href*="PO%20Well-drawn"]::before { content: var(--PO) "The artstyle has made a positive impression on me, might return just to look at the art.";}
+/* PO Well-drawn*/ .data.tags span a[href*="PO%20Well-drawn"]::before { color: var(--badPO); content: var(--PO) "The artstyle has made a positive impression on me, might return just to look at the art.";}
 
