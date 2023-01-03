@@ -137,7 +137,7 @@
 /* PO Stumble */ .data.tags span a[href*="PO%20Stumble"]::before { color: var(--shitPO); content: var(--PO) "The story slowly becomes worse the longer it goes on, It is still watchable/readable but it won't get better.";}
 /* PO Fallen */ .data.tags span a[href*="PO%20Fallen"]::before { color: var(--shitPO); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
 
-/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--badPO); content: var(--PO) "\"The show must go on!\" \a Integrity gets thrown out of the window for the sake of making the story continue. This can still turn into something good but don't count on it.")
+/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--badPO); content: var(--PO) "\"The show must go on!\" \a Integrity gets thrown out of the window for the sake of making the story continue. This can still turn into something good but don't count on it.";)
 
     
 /* Art */
