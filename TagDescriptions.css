@@ -133,13 +133,16 @@
 \*--------------------------*/
 
 /* Story */
-/* PO Hiccup */ .data.tags span a[href*="PO%20Hiccup"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, a hiccup often becomes a stumble */
-/* PO Stumble */ .data.tags span a[href*="PO%20Stumble"]::before { color: var(--shitPO); content: var(--PO) "The story slowly becomes worse the longer it goes on, It is still watchable/readable but it won't get better.";}
-/* PO Fallen */ .data.tags span a[href*="PO%20Fallen"]::before { color: var(--shitPO); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
+/* PO Dip */ .data.tags span a[href*="PO%20Hiccup"]::before, .data.tags span a[href*="PO%20Dip"]::before
+{ color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
+/* PO Downhill */ .data.tags span a[href*="PO%20Stumble"]::before, .data.tags span a[href*="PO%20Downhill"]::before
+{ color: var(--shitPO); content: var(--PO) "The story slowly becomes worse the longer it goes on, It is still watchable/readable but it won't get better.";}
+/* PO Nosedive */ .data.tags span a[href*="PO%20Fallen"]::before, .data.tags span a[href*="PO%20Nosedive"]::before
+{ color: var(--shitPO); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
 
-/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--badPO); content: var(--PO) "\"The show must go on!\" \a Integrity gets thrown out of the window for the sake of making the story continue. This can still turn into something good but don't count on it.";)
+/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The show must go on!\" \a There was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";)
 
     
 /* Art */
-/* PO Well-drawn*/ .data.tags span a[href*="PO%20Well-drawn"]::before { color: var(--badPO); content: var(--PO) "The artstyle has made a positive impression on me, might return just to look at the art.";}
+/* PO Well-drawn*/ .data.tags span a[href*="PO%20Well-drawn"]::before { color: var(--gudPO); content: var(--PO) "The artstyle has made a positive impression on me, might return just to look at the art.";}
 
