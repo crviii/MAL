@@ -32,7 +32,7 @@
 
 
 :root {
-    --PO: "PO: Personal Opinion \a May not apply to you, unless you're future me. \a\a ";
+    --PO: "PERSONAL OPINION \a May not apply to you, unless you're future me. \a\a ";
     --gudPO: green;
     --badPO: orange;
     --shitPO: red;
@@ -71,22 +71,22 @@
     ;}  
 
 /* Talking Animal */ .data.tags span a[href*="Talking%20Animal"]::before { content: 
-   /* If the animal's anatomy has been significantly changed to more resemble a human's, it's an Anthro.
+   /* If the animal's body anatomy has been significantly changed to more resemble a human's, it's an Anthro.
     * Sailor Moon's Luna is a Talking Animal with an expressive face.
     * Fairy Tail's Happy is an Anthro. */
-        /*/ "Talking Animal: Animals, sometimes with expressive faces." /**/
+        /*/ "Talking Animal: Talks like people, walks like an animal." /**/
         /*/ "\a\a" /**/
         /**/ "Talking animals are " var(--focus) /**/
     ;}
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
-        /*/ "Anthro: Humanized animal or object. " /**/
+        /*/ "Anthro: Humanized creature or object. " /**/
         /*/ "\a\a" /**/
         /**/ "Anthros are " var(--focus) /**/
     ;}
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
    /* Different from an anthro, in that instead of being an animal that looks like a human, it's a human, with some part animal.
     * Monster Musume no Iru Nichijou is all about Monster Girls and the characters serve as a perfect examples of monster girls. */
-        /*/ "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. " /**/
+        /*/ "Hybrid between a human girl, and a (mythological) animal/creature. " /**/
         /*/ "\a\a" /**/
         /**/ "Monster girls are " var(--focus) /**/
     ;}
