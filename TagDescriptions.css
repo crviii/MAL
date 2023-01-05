@@ -138,8 +138,10 @@
 /* PO Nosedive */ .data.tags span a[href*="PO%20Nosedive"]::before, .data.tags span a[href*="PO%20ND"]::before { color: var(--shitPO); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
 
 /* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The show must go on!\" \a There was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";)
-    
-    
+
+/* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply not my genre.";}
+
+
 /* Art */
 /* PO Well-drawn*/ .data.tags span a[href*="PO%20Well-drawn"]::before { color: var(--gudPO); content: var(--PO) "The artstyle has made a positive impression on me, might return just to look at the art.";}
 
