@@ -40,18 +40,21 @@
 }
 
 
-/*---------------------*\
-|* Storytelling Tropes *|
-\*---------------------*/
+/*--------------------*\
+|* Protagonist Tropes *|
+\*--------------------*/
  
 /* OP MC */ .data.tags span a[href*="OP%20MC"]::before { content: 
-        /**/ "The protagonist has cheat mechanics or is just plain overpowered" /*/". "/*/", "/**/
-        /**/ "usually to the story's detriment." /**/
+        /**/ "The protagonist has cheat mechanics or is just plain overpowered" /**/
+        /**/ ", usually to the story's detriment" /**/ "." /**/
         /*/ "\a\a" /**/
         /*/ "Combat scenes have little to no suspense, as the protagonist is leagues above any opponents they may face and often have no weaknesses. " /**/
         /*/ "Even if the protagonist is not involved at the start of combat, they may appear near the end of the battle to save the day." /**/
     ;}
 
+/* Anti-Hero */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content: 
+        /**/ "The protagonist has the same greater intentions as a conventional hero, but their actions or alignment may be morally questionable or downright villainous." /**/
+    ;}
 
 
 /*------------------*\
@@ -121,8 +124,14 @@
         /*/ "\a" /**/
         /*/ "Subgenre of the 'Slice of Life' genre. " /**/
         /*/ "\a\a" /**/
-        /**/ "An (almost) exclusively female cast doing everyday stuff" /*/". "/*/", "/**/
-        /**/ "such as going to school, going to work, or doing activities together." /**/
+        /**/ "An (almost) exclusively female cast does everyday stuff" /**/
+        /**/ ", such as go to school, go to work, or do activities together" /**/ "." /**/
+    ;}
+/* Mahou Shoujo */ .data.tags span a[href*="Mahou%20Shoujo"]::before { content: 
+        /**/ "Mahou Shoujo (魔法少女): \"Magical Girl\"." /**/
+        /*/ "\a\a" /**/
+        /*/ "I have no idea" /**/
+        /*/ "what to put here" /**/
     ;}
 
 
