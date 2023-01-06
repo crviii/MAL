@@ -44,7 +44,7 @@
 |* Protagonist Tropes *|
 \*--------------------*/
  
-/* OP MC */ .data.tags span a[href*="OP%20MC"]::before { content: 
+/* Cheat */ .data.tags span a[href*="Cheat"]::before { content: 
         /**/ "The protagonist has cheat mechanics, godly blessings, or is just plain overpowered compared to the world they inhabit" /**/
         /**/ ", usually to the story's detriment" /**/ "." /**/
         /*/ "\a\a" /**/
@@ -52,7 +52,7 @@
         /*/ "If the protagonist isn't involved at the start, they may still rush in at the end to save the day." /**/
     ;}
 
-/* Anti-Hero MC */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content: 
+/* Anti-Hero */ .data.tags span a[href*="Anti-Hero"]::before { content: 
         /**/ "The protagonist has the same intentions as a conventional hero, but their actions, ethics or alignment may be questionable or downright villainous." /**/
     ;}
 
