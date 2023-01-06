@@ -45,15 +45,15 @@
 \*--------------------*/
  
 /* OP MC */ .data.tags span a[href*="OP%20MC"]::before { content: 
-        /**/ "The protagonist has cheat mechanics or is just plain overpowered" /**/
+        /**/ "The protagonist has cheat mechanics, godly blessings, or is just plain overpowered compared to the world they inhabit" /**/
         /**/ ", usually to the story's detriment" /**/ "." /**/
         /*/ "\a\a" /**/
-        /*/ "Combat scenes have little to no suspense, as the protagonist is leagues above any opponents they may face and often have no weaknesses. " /**/
-        /*/ "Even if the protagonist is not involved at the start of combat, they may appear near the end of the battle to save the day." /**/
+        /*/ "- Combat scenes often have little to no suspense. " /**/
+        /*/ "If the protagonist isn't involved at the start, they may still rush in at the end to save the day." /**/
     ;}
 
-/* Anti-Hero */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content: 
-        /**/ "The protagonist has the same greater intentions as a conventional hero, but their actions or alignment may be morally questionable or downright villainous." /**/
+/* Anti-Hero MC */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content: 
+        /**/ "The protagonist has the same intentions as a conventional hero, but their actions, ethics or alignment may be questionable or downright villainous." /**/
     ;}
 
 
