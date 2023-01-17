@@ -52,8 +52,18 @@
         /*/ "If the protagonist isn't involved at the start, they may still rush in at the end to save the day." /**/
     ;}
 
-/* Anti-Hero */ .data.tags span a[href*="Anti-Hero"]::before { content: 
-        /**/ "The protagonist has the same intentions as a conventional hero, but their actions, ethics or alignment may be questionable or downright villainous." /**/
+/* Anti-Hero MC */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content:
+    /* https://tvtropes.org/pmwiki/pmwiki.php/Main/AntiHero */
+    /* PO: Just being 'meh' about it all doesn't count. */
+        /**/ "The protagonist does heroic stuff (or just designated hero), but their true motivations or methods tend to be morally questionable. " /**/
+        /**/ "\a\a" /**/
+        /**/ "ex. L Lawliet (Death Note): While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. He also willfully endangers countless lives in the process." /**/ 
+    ;}
+
+/* Villain MC */ .data.tags span a[href*="Villain%20MC"]::before { content: 
+        /**/ "The protagonist is considered a villain, or part of a group considered villainous. " /**/
+        /*/ "This doesn't necessarily mean they're evil." /**/ 
+        /*/ "Sometimes their moral compass" /**/
     ;}
 
 
