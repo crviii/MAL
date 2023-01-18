@@ -52,19 +52,26 @@
         /*/ "If the protagonist isn't involved at the start, they may still rush in at the end to save the day." /**/
     ;}
 
-/* Anti-Hero MC */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content:
-    /* https://tvtropes.org/pmwiki/pmwiki.php/Main/AntiHero */
-    /* PO: Just being 'meh' about it all doesn't count. */
-        /**/ "The protagonist does heroic stuff (or just designated hero), but their true motivations or methods tend to be morally questionable. " /**/
-        /**/ "\a\a" /**/
-        /**/ "ex. L Lawliet (Death Note): While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. He also willfully endangers countless lives in the process." /**/ 
+/* Villain MC */ .data.tags span a[href*="Villain%20MC"]::before { content: 
+        /**/ "The protagonist is a villain, or part of a group of villains. " /**/
     ;}
 
-/* Villain MC */ .data.tags span a[href*="Villain%20MC"]::before { content: 
-        /**/ "The protagonist is considered a villain, or part of a group considered villainous. " /**/
-        /*/ "This doesn't necessarily mean they're evil." /**/ 
-        /*/ "Sometimes their moral compass" /**/
+/* Anti-Villain MC */ .data.tags span a[href*="Anti-Villain%20MC"]::before { content: 
+    /* https://tvtropes.org/pmwiki/pmwiki.php/Main/AntiVillain */
+        /**/ "The protagonist is considered (or designated) a villain, but they're not malevolently evil. " /**/
+        /**/ "Their true motivations tend to be noble, and they're often neutrally aligned and/or kind-hearted or honorable in nature." /**/
+        /*/ TODO: FIND EXAMPLE /**/
     ;}
+
+/* Anti-Hero MC */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content:
+    /* https://tvtropes.org/pmwiki/pmwiki.php/Main/AntiHero */
+        /**/ "The protagonist is considered (or designated) the hero, but they're not exactly heroic." /**/
+        /**/ "Their true motivations tend to be morally questionable, and often they're okay with breaking a few laws to achieve their goals. " /**/
+        /**/ "\a\a" /**/
+        /**/ "Example of an Anti-Hero \a L Lawliet (Death Note) \a While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. L uses means such as kidnapping, not preventing murder, invasion of privacy and torture in the process." /**/ 
+    ;}
+
+/* Heroes boring, boo */
 
 
 /*------------------*\
