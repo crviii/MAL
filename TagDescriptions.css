@@ -171,3 +171,11 @@
 /* Art */
 /* PO Well-drawn */ .data.tags span a[href*="PO%20Well-drawn"]::before { color: var(--gudPO); content: var(--PO) "The artstyle has made a positive impression on me, might return just to look at the art.";}
 
+/*------------*\
+|* Other Tags *|
+\*------------*/
+ 
+/* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "They're in full, unobstructed view.";}
+/* Flash */ .data.tags span a[href*="Flash"]::before { content: "They're in full, unobstructed view... but only once or twice, for a few seconds.";}
+
+
