@@ -175,7 +175,13 @@
 |* Other Tags *|
 \*------------*/
  
-/* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "They're in full, unobstructed view.";}
-/* Flash */ .data.tags span a[href*="Flash"]::before { content: "They're in full, unobstructed view... but only once or twice, for a few seconds.";}
+/* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "There's genitalia in full, unobstructed view.";}
+/* Flash */ .data.tags span a[href*="Flash"]::before { content: "There's genitalia in full, unobstructed view... but only once or twice, and only a peek.";}
+
+/* 15Cen */ .data.tags span a[href*="15Cen"]::before { content: "The uncensored version is still censored.\aThere might be a few more R15+ scenes, or a bit less fog, but in the end nothing is really shown.";}
+
+/* I sincerely hope I never have to use these tags anywhere. */
+/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--shitPO); content: "Woke, down to the source\a\aThe entire storyline has been made to appeal to racial/social/gender minorities. If you prefer a more authentic experience, find something else.";}
+/* Wokewash */ .data.tags span a[href*="Wokewash"]::before { color: var(--shitPO); content: "Woke, but the source isn't\a\aThe most widespread adaptation has been wokewashed to appeal to racial/social/gender minorities. If you prefer a more authentic experience, find the original source or a different adaptation.";}
 
 
