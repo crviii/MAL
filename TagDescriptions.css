@@ -163,9 +163,9 @@
 /* PO Downhill */ .data.tags span a[href*="PO%20Downhill"]::before, .data.tags span a[href*="PO%20DH"]::before { color: var(--shitPO); content: var(--PO) "The story slowly becomes worse the longer it goes on, it is still watchable/readable but it won't get better.";}
 /* PO Nosedive */ .data.tags span a[href*="PO%20Nosedive"]::before, .data.tags span a[href*="PO%20ND"]::before { color: var(--shitPO); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
 
-/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The show must go on!\" \a There was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
+/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The (s)how (m)ust (g)o (o)n!\"\aThere was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
 
-/* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply not my genre.";}
+/* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (n)ot (m)y (g)enre.";}
 
 
 /* Art */
@@ -175,13 +175,12 @@
 |* Other Tags *|
 \*------------*/
  
-/* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "There's genitalia in full, unobstructed view.";}
-/* Flash */ .data.tags span a[href*="Flash"]::before { content: "There's genitalia in full, unobstructed view... but only once or twice, and only a peek.";}
+/* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "There's nipples or genitalia in full, unobstructed view.";}
+/* Flash */ .data.tags span a[href*="Flash"]::before { content: "There's nipples or genitalia in full, unobstructed view... but only once or twice, and only a peek.";}
 
-/* 15Cen */ .data.tags span a[href*="15Cen"]::before { content: "The uncensored version is still censored.\aThere might be a few more R15+ scenes, or a bit less fog, but in the end nothing is really shown.";}
+/* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories that has the audience wondering what the difference between censored and uncensored is. Usually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
 /* I sincerely hope I never have to use these tags anywhere. */
 /* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--shitPO); content: "Woke, down to the source\a\aThe entire storyline has been made to appeal to racial/social/gender minorities. If you prefer a more authentic experience, find something else.";}
 /* Wokewash */ .data.tags span a[href*="Wokewash"]::before { color: var(--shitPO); content: "Woke, but the source isn't\a\aThe most widespread adaptation has been wokewashed to appeal to racial/social/gender minorities. If you prefer a more authentic experience, find the original source or a different adaptation.";}
-
 
