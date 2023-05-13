@@ -178,7 +178,7 @@
 /* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "There's nipples or genitalia in full, unobstructed view.";}
 /* Flash */ .data.tags span a[href*="Flash"]::before { content: "There's nipples or genitalia in full, unobstructed view... but only once or twice, and only a peek.";}
 
-/* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference between censored and uncensored is. Usually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
+/* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\aUsually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
 /* I sincerely hope I never have to use these tags anywhere. */
 /* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--shitPO); content: "Woke, down to the source\a\aThe entire storyline has been made to appeal to racial/social/gender minorities. If you prefer a more authentic experience, find something else.";}
