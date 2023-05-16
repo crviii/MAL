@@ -1,5 +1,5 @@
-/* Making this so my shit memory self can somewhat remember what my tags mean and why I apply them. */
-/* Now all we have to do is pray, and hope I don't forget this github exists... */
+/* Making this so my shit memory self can somewhat remember what my own tags mean and why I apply them. */
+/* Now all we have to do is hope I actually keep using the right tags, and don't forget this github exists... */
 
 .data.tags {
     overflow: visible;
@@ -32,11 +32,11 @@
 
 
 :root {
+    --focus: "are the main focus of the story, make up the majority of the main cast, or are otherwise very noticeable. ";
     --PO: "PERSONAL OPINION \a May not apply to you, unless you're future me. \a\a ";
     --gudPO: green;
     --badPO: orange;
     --shitPO: red;
-    --focus: "the main focus of the story, the majority of the main cast, or otherwise very noticeable. ";
 }
 
 
@@ -82,12 +82,12 @@
    /* Toddlers are not loli. */
         /*/ "Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Loli are " var(--focus) /**/
+        /**/ "Loli " var(--focus) /**/
     ;} 
 /* Shota */ .data.tags span a[href*="Shota"]::before { content: 
         /*/ "Shota (ショタ): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Shota are " var(--focus) /**/
+        /**/ "Shota " var(--focus) /**/
     ;}  
 
 /* Talking Animal */ .data.tags span a[href*="Talking%20Animal"]::before { content: 
@@ -96,24 +96,24 @@
     * Fairy Tail's Happy is an Anthro. */
         /*/ "Talking Animal: Talks like people, walks like an animal." /**/
         /*/ "\a\a" /**/
-        /**/ "Talking animals are " var(--focus) /**/
+        /**/ "Talking animals " var(--focus) /**/
     ;}
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
         /*/ "Anthro: Humanized creature or object. " /**/
         /*/ "\a\a" /**/
-        /**/ "Anthros are " var(--focus) /**/
+        /**/ "Anthros " var(--focus) /**/
     ;}
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
    /* Different from an anthro, in that instead of being an animal that looks like a human, it's a human, with some part animal.
     * Monster Musume no Iru Nichijou is all about Monster Girls and the characters serve as a perfect examples of monster girls. */
         /*/ "Hybrid between a human girl, and a (mythological) animal/creature. " /**/
         /*/ "\a\a" /**/
-        /**/ "Monster girls are " var(--focus) /**/
+        /**/ "Monster girls " var(--focus) /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
         /*/ "Kemonomimi (獣耳): \"Animal Ears\". Humans, but with added animal ears, horns and tail. " /**/
         /*/ "\a\a" /**/
-        /**/ "Kemonomimi are " var(--focus) /**/
+        /**/ "Kemonomimi " var(--focus) /**/
     ;}
 
 
