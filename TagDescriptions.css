@@ -151,6 +151,8 @@
         /*/ "what to put here" /**/
     ;}
 
+/* Food */ .data.tags span a[href*="Food"]::before { content: "Whenever character(s) are talking about food, which will be often, the cooking process and/or the flavour will be explained in great detail to the viewer.\a\aGood to pick up some recipes.";}
+
 
 
 /*--------------------------*\
