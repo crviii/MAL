@@ -118,11 +118,13 @@
 
 
 
-/*------------*\
-|* Genre Tags *|
-\*------------*/
+/*--------*\
+|* Genres *|
+\*--------*/
  
 /* Isekai */ .data.tags span a[href*="Isekai"]::before { content: 
+    /* I don't count stories where the protagonist isn't clearly shown living in their original world, being resurrected, being summoned, or experiencing their first moments having been transferred/resurrected.
+     * Tensei Oujo to Tensai Reijou no Mahou Kakumei doesn't count, as Anis regained her past modern-day-Japan life's memories 12 years ago(manga)/when she was 5(anime) within a too brief flashback. */
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a\a" /**/
         /**/ "Character(s) from a normal world are transferred or resurrected into a fantasy world. " /**/
@@ -150,8 +152,20 @@
         /*/ "I have no idea" /**/
         /*/ "what to put here" /**/
     ;}
+/* Food */ .data.tags span a[href*="Food"]::before { content: 
+        /**/ "The story is mainly about cooking or eating food. " /**/
+        /**/ "\a\a" /**/
+        /**/ "Whenever character(s) are talking about food, often the cooking process and/or the flavour will be explained in detail" /**/
+        /**/ ", encouraging the viewer to try it themselves" /**/ "." /**/
+    ;}
 
-/* Food */ .data.tags span a[href*="Food"]::before { content: "Whenever character(s) are talking about food, which will be often, the cooking process and/or the flavour will be explained in great detail to the viewer.\a\aGood to pick up some recipes.";}
+
+
+/*-------------------*\
+|* Mood of the story *|
+\*-------------------*/
+ 
+/* Calm */ .data.tags span a[href*="Calm"]::before { content: "A laid back show, with barely any drama, action, romance or comedy, that doesn't end up being boring. Good to wind down";} /* AKA Slice of Life, I guess*/
 
 
 
