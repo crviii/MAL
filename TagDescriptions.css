@@ -123,8 +123,8 @@
 \*--------*/
  
 /* Isekai */ .data.tags span a[href*="Isekai"]::before { content: 
-    /* I don't count stories where the protagonist isn't clearly shown living in their original world, being resurrected, being summoned, or experiencing their first moments having been transferred/resurrected.
-     * Tensei Oujo to Tensai Reijou no Mahou Kakumei doesn't count, as Anis regained her past modern-day-Japan life's memories 12 years ago(manga)/when she was 5(anime) within a too brief flashback. */
+    /* I don't count stories where the protagonist isn't clearly shown living in their original world, being resurrected, being summoned, or first experiences being in the new world.
+     * Tensei Oujo to Tensai Reijou no Mahou Kakumei doesn't count, the flashback where Anis regains her past life's memories was too brief, her first experiences aren't touched upon. */
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a\a" /**/
         /**/ "Character(s) from a normal world are transferred or resurrected into a fantasy world. " /**/
@@ -196,7 +196,8 @@
 
 /* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\aUsually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
-/* I sincerely hope I never have to use these tags anywhere. */
-/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--shitPO); content: "Woke, down to the source\a\aThe entire storyline has been made to appeal to racial/social/gender minorities. If you prefer a more authentic experience, find something else.";}
-/* Wokewash */ .data.tags span a[href*="Wokewash"]::before { color: var(--shitPO); content: "Woke, but the source isn't\a\aThe most widespread adaptation has been wokewashed to appeal to racial/social/gender minorities. If you prefer a more authentic experience, find the original source or a different adaptation.";}
 
+/* I sincerely hope I never have to use these tags anywhere. */
+/* I have nothing against people's political opinions, they are allowed to have them. It's the pushing of those opinions via entertainment media that truly ticks me off. */
+/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--badPO); content: "The entire storyline has been made to appeal to racial/social/gender minorities.";} /* Never seen this yet, but I dread the day I will. */
+/* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content: "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities. You'll find characters have suddenly changed skin colors, perhaps genders. If you prefer a more authentic experience, find the original source or a different adaptation.";}
