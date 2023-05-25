@@ -169,10 +169,10 @@
 
 
 
-/*--------------------------*\
-|*    Personal  Opinions    *|
-|* To remind my future self *|
-\*--------------------------*/
+/*--- -----------------------------*\
+|* Personal Opinions and Reminders *|
+|*       To remind future me       *|
+\*---------------------------------*/
 
 /* Story */
 /* PO Dip */ .data.tags span a[href*="PO%20Dip"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
@@ -182,6 +182,9 @@
 /* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The (s)how (m)ust (g)o (o)n!\"\aThere was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
 
 /* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (n)ot (m)y (g)enre.";}
+
+/* Rewatch */ .data.tags span a[href*="Rewatch"]::before { content: "For whatever reason, I've been unable to give this a proper watch. This tag will hopefully remind me to rewatch it later..";}
+/* Reread */ .data.tags span a[href*="Reread"]::before { content: "For whatever reason, I've been unable to give this a proper read. This tag will hopefully remind me to reread it later..";}
 
 
 /* Art */
@@ -199,5 +202,12 @@
 
 /* I sincerely hope I never have to use these tags anywhere. */
 /* I have nothing against people's political opinions, they are allowed to have them. It's the pushing of those opinions via entertainment media that truly ticks me off. */
-/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--badPO); content: "The entire storyline has been made to appeal to racial/social/gender minorities.";} /* Never seen this yet, but I dread the day I will. */
-/* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content: "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities. You'll find characters have suddenly changed skin colors, perhaps genders. If you prefer a more authentic experience, find the original source or a different adaptation.";}
+/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--badPO); content: /* Never seen this yet */
+        /**/ "The entire storyline has been made to appeal to racial/social/gender minorities."
+    ;}
+/* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content:
+        /**/ "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
+        /**/ "You'll find characters have suddenly changed skin colors" /* Ariel had a makeover in The Little Mermaid 2023 */ 
+        /**/ ", or entirely new characters representing minorities being shoehorned in" /**/ "." /* Apparently this also happens in The Little Mermaid 2023, not sure, haven't seen it */
+        /**/ "If you prefer a more authentic experience, find the original source or a different adaptation." /**/
+    ;}
