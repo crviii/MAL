@@ -45,10 +45,10 @@
 \*--------------------*/
  
 /* Cheat */ .data.tags span a[href*="Cheat"]::before { content: 
-        /**/ "The protagonist has cheat mechanics, godly blessings, or is just plain overpowered compared to the world they inhabit" /**/
-        /**/ ", usually to the story's detriment" /**/ "." /**/
+        /**/ "The protagonist has cheat mechanics, godly blessings, or is just plain overpowered compared to an average character" /**/
+        /**/ ", often to the story's detriment" /**/ "." /**/
         /*/ "\a\a" /**/
-        /*/ "- Combat scenes often have little to no suspense. " /**/
+        /*/ "Combat often has little to no suspense, sometimes just being a ton of build-up to a OHKO." /**/
         /*/ "If the protagonist isn't involved at the start, they may still rush in at the end to save the day." /**/
     ;}
 
@@ -68,7 +68,7 @@
         /**/ "The protagonist is considered (or designated) the hero, but they're not exactly heroic." /**/
         /**/ "Their true motivations tend to be morally questionable, and often they're okay with breaking a few laws to achieve their goals. " /**/
         /**/ "\a\a" /**/
-        /**/ "Example of an Anti-Hero \a L Lawliet (Death Note) \a While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. L uses means such as kidnapping, not preventing murder, invasion of privacy and torture in the process." /**/ 
+        /**/ "Example of an Anti-Hero \a L Lawliet from <Death Note> \a While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. L uses means such as kidnapping, not preventing murder, invasion of privacy and torture in the process." /**/ 
     ;}
 
 /* Heroes boring, boo */
@@ -92,8 +92,8 @@
 
 /* Talking Animal */ .data.tags span a[href*="Talking%20Animal"]::before { content: 
    /* If the animal's body anatomy has been significantly changed to more resemble a human's, it's an Anthro.
-    * Sailor Moon's Luna is a Talking Animal with an expressive face.
-    * Fairy Tail's Happy is an Anthro. */
+    * <Sailor Moon>'s Luna is a Talking Animal with an expressive face.
+    * <Fairy Tail>'s Happy is an Anthro. */
         /*/ "Talking Animal: Talks like people, walks like an animal." /**/
         /*/ "\a\a" /**/
         /**/ "Talking animals " var(--focus) /**/
@@ -105,7 +105,7 @@
     ;}
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
    /* Different from an anthro, in that instead of being an animal that looks like a human, it's a human, with some part animal.
-    * Monster Musume no Iru Nichijou is all about Monster Girls and the characters serve as a perfect examples of monster girls. */
+    * <Monster Musume no Iru Nichijou> is all about Monster Girls and the characters serve as a perfect examples of monster girls. */
         /*/ "Hybrid between a human girl, and a (mythological) animal/creature. " /**/
         /*/ "\a\a" /**/
         /**/ "Monster girls " var(--focus) /**/
@@ -124,7 +124,7 @@
  
 /* Isekai */ .data.tags span a[href*="Isekai"]::before { content: 
     /* I don't count stories where the protagonist isn't clearly shown living in their original world, being resurrected, being summoned, or first experiences being in the new world.
-     * Tensei Oujo to Tensai Reijou no Mahou Kakumei doesn't count, the flashback where Anis regains her past life's memories was too brief, her first experiences aren't touched upon. */
+     * <Tensei Oujo to Tensai Reijou no Mahou Kakumei> doesn't count, the flashback where Anis regains her past life's memories was too brief, her first experiences aren't touched upon. */
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a\a" /**/
         /**/ "Character(s) from a normal world are transferred or resurrected into a fantasy world. " /**/
@@ -199,15 +199,13 @@
 
 /* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\aUsually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
-
 /* I sincerely hope I never have to use these tags anywhere. */
-/* I have nothing against people's political opinions, they are allowed to have them. It's the pushing of those opinions via entertainment media that truly ticks me off. */
+/* I have nothing against people's political opinions, they are allowed to have them. It's when they start messing with entertainment media to push those views that this woke stuff truly ticks me off. */
 /* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--badPO); content: /* Never seen this yet */
         /**/ "The entire storyline has been made to appeal to racial/social/gender minorities."
     ;}
 /* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content:
         /**/ "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
-        /**/ "You'll find characters have suddenly changed skin colors" /* Ariel had a makeover in The Little Mermaid 2023 */ 
-        /**/ ", or entirely new characters representing minorities being shoehorned in" /**/ "." /* Apparently this also happens in The Little Mermaid 2023, not sure, haven't seen it */
+        /**/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it ¯\_(ツ)_/¯) */ 
         /**/ "If you prefer a more authentic experience, find the original source or a different adaptation." /**/
     ;}
