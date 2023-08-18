@@ -165,7 +165,7 @@
 |* Mood of the story *|
 \*-------------------*/
  
-/* Calm */ .data.tags span a[href*="Calm"]::before { content: "A laid back show, with barely any drama, action, romance or comedy, that doesn't end up being boring. Good to wind down";} /* AKA Slice of Life, I guess*/
+/* Calm */ .data.tags span a[href*="Calm"]::before { content: "A laid back show, with barely any drama, action, romance or comedy, that doesn't end up being boring. Good to wind down.";} /* AKA Slice of Life, I guess*/
 
 
 
@@ -181,10 +181,9 @@
 
 /* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The (s)how (m)ust (g)o (o)n!\"\aThere was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
 
-/* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (n)ot (m)y (g)enre.";}
+/* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (N)ot (M)y (G)enre.";}
 
-/* Rewatch */ .data.tags span a[href*="Rewatch"]::before { content: "For whatever reason, I've been unable to give this a proper watch. This tag will hopefully remind me to rewatch it later..";}
-/* Reread */ .data.tags span a[href*="Reread"]::before { content: "For whatever reason, I've been unable to give this a proper read. This tag will hopefully remind me to reread it later..";}
+/* Jaundiced Eye */ .data.tags span a[href*="Jaundiced%20Eye"]::before { content: "Some outside factor, like mood swings, has caused me to view part of the story as insufferable... It's probably not as bad as I thought it looked, but all looks yellow to the jaundiced eye.";}
 
 
 /* Art */
