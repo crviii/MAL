@@ -161,15 +161,25 @@
 
 
 
-/*-------------------*\
-|* Mood of the story *|
-\*-------------------*/
+/*-----------*\
+|* Meta tags *|
+\*-----------*/
  
-/* Calm */ .data.tags span a[href*="Calm"]::before { content: "A laid back show, with barely any drama, action, romance or comedy, that doesn't end up being boring. Good to wind down.";} /* AKA Slice of Life, I guess*/
+/* Bad Subs */ .data.tags span a[href*="Bad%20Subs"]::before { content: "The subtitles were subpar at my time of viewing. Either they were wrong, or were full of grammatical errors.";}
+
+/* I have nothing against people's political opinions, they are allowed to have them. It's when they start messing with entertainment media to push those views that this woke stuff truly ticks me off. */
+/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--badPO); content: /* Never seen this yet */
+        /**/ "The entire storyline has been made to appeal to racial/social/gender minorities."
+    ;}
+/* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content:
+        /**/ "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
+        /**/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it ¯\_(ツ)_/¯) */ 
+        /**/ "If you prefer a more authentic experience, find the original source or a different adaptation." /**/
+    ;}
 
 
 
-/*--- -----------------------------*\
+/*---------------------------------*\
 |* Personal Opinions and Reminders *|
 |*       To remind future me       *|
 \*---------------------------------*/
@@ -183,11 +193,10 @@
 
 /* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (N)ot (M)y (G)enre.";}
 
-/* Jaundiced Eye */ .data.tags span a[href*="Jaundiced%20Eye"]::before { content: "Some outside factor, like mood swings, has caused me to view part of the story as insufferable... It's probably not as bad as I thought it looked, but all looks yellow to the jaundiced eye.";}
-
-
 /* Art */
 /* PO Well-drawn */ .data.tags span a[href*="PO%20Well-drawn"]::before { color: var(--gudPO); content: var(--PO) "The artstyle has made a positive impression on me, might return just to look at the art.";}
+
+
 
 /*------------*\
 |* Other Tags *|
@@ -198,13 +207,6 @@
 
 /* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\aUsually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
-/* I sincerely hope I never have to use these tags anywhere. */
-/* I have nothing against people's political opinions, they are allowed to have them. It's when they start messing with entertainment media to push those views that this woke stuff truly ticks me off. */
-/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--badPO); content: /* Never seen this yet */
-        /**/ "The entire storyline has been made to appeal to racial/social/gender minorities."
-    ;}
-/* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content:
-        /**/ "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
-        /**/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it ¯\_(ツ)_/¯) */ 
-        /**/ "If you prefer a more authentic experience, find the original source or a different adaptation." /**/
-    ;}
+
+/* Jaundiced Eye */ .data.tags span a[href*="Jaundiced%20Eye"]::before { content: "Some outside factor, like mood swings, has caused me to view part of the story as insufferable... It's probably not as bad as I thought it looked, but all looks yellow to the jaundiced eye.";}
+
