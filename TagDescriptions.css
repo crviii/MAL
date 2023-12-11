@@ -45,8 +45,8 @@
 \*--------------------*/
  
 /* Cheat */ .data.tags span a[href*="Cheat"]::before { content: 
-        /**/ "The protagonist has godly blessings, knowledge of a previous life, absurd 'stats', etc. making them vastly more powerful compared to other characters" /**/
-        /**/ ", often to the story's detriment" /**/ "." /**/
+        /**/ "The protagonist has godly blessings, knowledge of a previous life, absurd 'stats', ourworldly items, etc. making them vastly more powerful compared to other characters" /**/
+        /*/ ", often to the story's detriment" /**/ "." /**/
         /*/ "\a\a" /**/
         /*/ "Combat often has little to no suspense, sometimes just being a ton of build-up to a OHKO." /**/
         /*/ "If the protagonist isn't involved at the start, they may still rush in at the end to save the day." /**/
@@ -92,9 +92,9 @@
 
 /* Talking Animal */ .data.tags span a[href*="Talking%20Animal"]::before { content: 
    /* If the animal's body anatomy has been significantly changed to more resemble a human's, it's an Anthro.
-    * <Sailor Moon>'s Luna is a Talking Animal with an expressive face.
-    * <Fairy Tail>'s Happy is an Anthro. */
-        /*/ "Talking Animal: Talks like people, walks like an animal." /**/
+    * <Sailor Moon>'s Luna is a Talking Animal, they look almost exactly like an animal except for the humanized face.
+    * <Fairy Tail>'s Happy is an Anthro, they have humanized body anatomy and walk on two legs. */
+        /*/ "Talking Animal: It's an animal in every way, but it talks." /**/
         /*/ "\a\a" /**/
         /**/ "Talking animals " var(--focus) /**/
     ;}
@@ -123,7 +123,7 @@
 \*--------*/
  
 /* Isekai */ .data.tags span a[href*="Isekai"]::before { content: 
-    /* I don't count stories where the protagonist isn't clearly shown living in their original world, being resurrected, being summoned, or first experiences being in the new world.
+    /* I don't count stories where the protagonist isn't clearly shown living in their original world, being resurrected, being summoned, or first experiences being in the new world. These get Afterthought Isekai tag instead
      * <Tensei Oujo to Tensai Reijou no Mahou Kakumei> doesn't count, the flashback where Anis regains her past life's memories was too brief, her first experiences aren't touched upon. */
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a\a" /**/
@@ -137,6 +137,14 @@
         /*/ "\a\a" /**/
         /**/ "Character(s) from a fantasy world are transferred to a normal world. " /**/
         /*/ "They may or may not lose their their magical powers in the process. " /**/
+    ;}
+/* Afterthought Isekai */ .data.tags span a[href*="Afterthought%20Isekai"]::before { content: 
+    /* Isekais where the first world is so barely touched upon, the whole premise might as well be a "What if character just somehow knew about this ourworldly aspect?" scenario 
+     * <Okashi na Tensei> is a perfect example, all we get from Pastry's previous life is that he was a patissier and had the same color hair. This doesn't get addressed through flashback, he just 'knows' things. */
+        /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
+        /*/ "\a\a" /**/
+        /**/ "The premise of this story is supposed to be about character(s) from a normal world being transferred or resurrected into a fantasy world. " /**/
+        /**/ "But in these cases, the normal world or previous life(s) are touched upon so little, it almost seems like an afterthought to explain quirks or knowledge character(s) may have. " /**/
     ;}
 /* CGDCT */ .data.tags span a[href*="CGDCT"]::before { content: 
         /*/ "\"Cute Girls Doing Cute Things\". " /**/
