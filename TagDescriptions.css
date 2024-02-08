@@ -225,12 +225,14 @@
 /*------------*\
 |* Other Tags *|
 \*------------*/
- 
-/* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "There's nipples or genitalia in full, unobstructed view.";}
-/* Flash */ .data.tags span a[href*="Flash"]::before { content: "There's nipples or genitalia in full, unobstructed view... but only once or twice, and only a peek.";}
+
+/* No censors, no facing away. Mayo Chiki is an example of Nudity Lite, if memory serves me right there's just a single scene where there's a nipple in view. */
+/* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "The story contains nudity every so often.";}
+/* Nudity Lite */ .data.tags span a[href*="Nudity%20Lite"]::before { content: "The story contains a single instance, maybe two, of nudity.";}
+/* Nudity + */ .data.tags span a[href*="Nudity%2B"]::before, .data.tags span a[href*="Nudity%20%2B"]::before { content: "The story contains nudity pretty much every chapter/episode.";}
 
 /* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\aUsually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
 
-/* Jaundiced Eye */ .data.tags span a[href*="Jaundiced%20Eye"]::before { content: "Some outside factor, like mood swings, has caused me to view part of the story as insufferable... It's probably not as bad as I thought it looked, but all looks yellow to the jaundiced eye.";}
+/* Jaundiced Eye */ .data.tags span a[href*="Jaundiced%20Eye"]::before { content: "Some outside factor, like having a bad day, has caused me to view (part of) this story as insufferable... It's probably not as bad as I thought it looked, but all looks yellow to the jaundiced eye.";}
 
