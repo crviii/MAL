@@ -206,7 +206,7 @@
 \*---------------------------------*/
 
 /* Watch Habits */
-/* PO ODB */ .data.tags span a[href*="PO%20ODB"]::before { color: var(--gudPO); content: var(--PO) "This story was so good that I watched/read the entirety of it in a single day or sitting, a (O)ne (D)ay (B)inge. Usually reserved for anime";}
+/* PO ODB */ .data.tags span a[href*="PO%20Bingeworthy"]::before { color: var(--gudPO); content: var(--PO) "This story was so consistently good that I spent over 8hrs bingewatching/reading it in a single day.";}
 
 /* Story */
 /* PO Dip */ .data.tags span a[href*="PO%20Dip"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
