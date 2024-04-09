@@ -44,7 +44,7 @@
 \*--------------*/
 
 /* Timeskip */ .data.tags span a[href*="Timeskip"]::before { content: 
-    /* Timeskips have straight up caused me to drop series, such as Cyberpunk Edgerunners */
+    /* Timeskips have straight up caused me to drop series, such as <Cyberpunk: Edgerunners> */
         /**/ "This story contains a pretty significant timeskip, " /**/
         /**/ "the protagonist having met new characters, done significant things, and/or grown older in said timeskip, and then going from there. " /**/
         /**/ "In certain cases, this may change the entire dynamic of the rest of the story."
@@ -58,11 +58,17 @@
 \*--------------------*/
  
 /* Cheat */ .data.tags span a[href*="Cheat"]::before { content: 
-        /**/ "The protagonist has godly blessings, knowledge of a previous life, absurd 'stats', ourworldly items, etc. making them vastly more powerful compared to other characters" /**/
+        /**/ "The protagonist has " /**/
+        /**/ "godly blessings, " /**/
+        /**/ "knowledge of previous lives, " /* <Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru> */
+        /**/ "absurd strength, " /**/ /* <Mashle> */
+        /**/ "endless magical power, " /**/
+        /**/ "otherworldly items, " /**/
+        /**/ "etc. making them vastly more powerful compared to regular characters" /**/
         /*/ ", often to the story's detriment" /**/ "." /**/
-        /*/ "\a\a" /**/
-        /*/ "Combat often has little to no suspense, sometimes just being a ton of build-up to a OHKO." /**/
-        /*/ "If the protagonist isn't involved at the start, they may still rush in at the end to save the day." /**/
+        /**/ "\a\a" /**/
+        /**/ "Combat often has little to no true suspense, the protagonist sometimes being unaffected by being hit, only to OHKO their opponent." /**/
+        /*/ "If they're not involved at the start of a battle, they may still rush in mid-battle and save the day anyway." /**/
     ;}
 
 /* Villain MC */ .data.tags span a[href*="Villain%20MC"]::before { content: 
@@ -194,7 +200,7 @@
     ;}
 /* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content:
         /**/ "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
-        /**/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it ¯\_(ツ)_/¯) */ 
+        /**/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it, don't plan to ¯\_(ツ)_/¯) */ 
         /**/ "If you prefer a more authentic experience, find the original source or a different adaptation." /**/
     ;}
 
@@ -206,7 +212,7 @@
 \*---------------------------------*/
 
 /* Watch Habits */
-/* PO ODB */ .data.tags span a[href*="PO%20Bingeworthy"]::before { color: var(--gudPO); content: var(--PO) "This story was so consistently good that I spent over 8hrs bingewatching/reading it in a single day.";}
+/* PO Bingeworthy */ .data.tags span a[href*="PO%20Bingeworthy"]::before { color: var(--gudPO); content: var(--PO) "This story was so consistently good that I spent over 8hrs bingewatching/reading it in a single day.";}
 
 /* Story */
 /* PO Dip */ .data.tags span a[href*="PO%20Dip"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
@@ -226,7 +232,7 @@
 |* Other Tags *|
 \*------------*/
 
-/* No censors, no facing away. Mayo Chiki is an example of Nudity Lite, if memory serves me right there's just a single scene where there's a nipple in view. */
+/* No censors, no facing away. <Mayo Chiki> is an example of Nudity Lite, if memory serves me right there's just a single scene where there's a nipple in view. */
 /* Nudity */ .data.tags span a[href*="Nudity"]::before { content: "The story contains nudity every so often.";}
 /* Nudity Lite */ .data.tags span a[href*="Nudity%20Lite"]::before { content: "The story contains a single instance, maybe two, of nudity.";}
 /* Nudity + */ .data.tags span a[href*="Nudity%2B"]::before, .data.tags span a[href*="Nudity%20%2B"]::before { content: "The story contains nudity pretty much every chapter/episode.";}
