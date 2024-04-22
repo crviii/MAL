@@ -212,8 +212,8 @@
 \*---------------------------------*/
 
 /* Watch Habits */
-/* PO Bingeworthy */ .data.tags span a[href*="PO%20Bingeworthy"]::before { color: var(--gudPO); content: var(--PO) "This story was so consistently good that I spent over 8hrs bingewatching/reading it in a single day.";}
-/* MORE SEASONS */ .data.tags span a[href*="MORE%20SEASONS"]::before { content: "Because without this my dumb ass is gonna forget and watch first season, then get mad when there's a not yet aired sequel.";}
+/* PO Bingeworthy */ .data.tags span a[href*="PO%20Bingeworthy"]::before { color: var(--gudPO); content: var(--PO) "This story was so consistently good that I spent over 6hrs bingewatching/reading it in a single day.";}
+/* ONGOING SERIES */ .data.tags span a[href*="ONGOING%20SERIES"]::before { content: "Cause my dumb ass is gonna forget and watch, then get mad when there's a not yet aired sequel.";}
 
 /* Story */
 /* PO Dip */ .data.tags span a[href*="PO%20Dip"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
@@ -222,6 +222,7 @@
 
 /* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The (S)how (M)ust (G)o (O)n!\"\aThere was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
 
+/* Bias */
 /* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (N)ot (M)y (G)enre.";}
 
 /* Art */
