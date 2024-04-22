@@ -213,6 +213,7 @@
 
 /* Watch Habits */
 /* PO Bingeworthy */ .data.tags span a[href*="PO%20Bingeworthy"]::before { color: var(--gudPO); content: var(--PO) "This story was so consistently good that I spent over 8hrs bingewatching/reading it in a single day.";}
+/* MORE SEASONS */ .data.tags span a[href*="MORE%20SEASONS"]::before { content: "Because without this my dumb ass is gonna forget and watch first season, then get mad when there's a not yet aired sequel.";}
 
 /* Story */
 /* PO Dip */ .data.tags span a[href*="PO%20Dip"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
