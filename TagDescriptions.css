@@ -226,8 +226,8 @@
 /* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (N)ot (M)y (G)enre.";}
 
 /* Art */
-/* PO Good visuals */ .data.tags span a[href*="PO%20Well-drawn"]::before { color: var(--gudPO); content: var(--PO) "The visuals have made a positive impression on me. Something about the way it was drawn struck me as neat enough to warrant future watches/reads.";}
-/* PO Shit visuals */ .data.tags span a[href*="PO%20Shit%visuals"]::before { color: var(--shitPO); content: var(--PO) "The visuals are so exceptionally bad even *I* have noticed. Characters have bad anatomy or scenes/drawings are reused to the point it's actually distracting.";}
+/* PO Good visuals */ .data.tags span a[href*="PO%20Good%20visuals"]::before { color: var(--gudPO); content: var(--PO) "The visuals have made a positive impression on me. Something about the way it was drawn struck me as neat enough to warrant future watches/reads.";}
+/* PO Shit visuals */ .data.tags span a[href*="PO%20Shit%20visuals"]::before { color: var(--shitPO); content: var(--PO) "The visuals have become exceptionally bad even *I* have noticed. Characters have bad anatomy or scenes/drawings are reused to the point it's actually distracting.";}
 
 
 
