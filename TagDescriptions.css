@@ -227,7 +227,7 @@
 
 /* Art */
 /* PO Good visuals */ .data.tags span a[href*="PO%20Good%20visuals"]::before { color: var(--gudPO); content: var(--PO) "The visuals have made a positive impression on me. Something about the way it was drawn struck me as neat enough to warrant future watches/reads.";}
-/* PO QUALITY */ .data.tags span a[href*="PO%20Shit%20visuals"]::before, .data.tags span a[href*="PO%20QUALITY"]::before { color: var(--shitPO); content: var(--PO) "The visuals have become exceptionally bad even *I* have noticed. Characters have bad anatomy, scenes/drawings are reused, or the overall quality is so bad to the point it's actually distracting.";}
+/* PO QUALITY */ .data.tags span a[href*="PO%20Shit%20visuals"]::before, .data.tags span a[href*="PO%20QUALITY"]::before { color: var(--shitPO); content: var(--PO) "The visuals are/became so noticeably bad that it's actually distracting... Bad or awkward anatomy/proportions, hiding details (e.g. hands) to avoid drawing them, overuse of certain scenes/drawings, etc.";}
 
 
 
