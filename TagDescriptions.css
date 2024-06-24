@@ -59,15 +59,27 @@
  
 /* Cheat */ .data.tags span a[href*="Cheat"]::before { content: 
         /**/ "The protagonist has " /**/
+    
+    /* GENERAL UTILITY TYPES */
         /**/ "godly blessings, " /**/
+        /*/ "passive hypnosis, " /* <Rokudou no Onna-tachi> */
+    
+    /* KNOWLEDGE TYPES */
         /**/ "knowledge of previous lives, " /* <Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru> */
-        /**/ "absurd strength, " /**/ /* <Mashle> */
-        /**/ "endless magical power, " /**/
-        /**/ "otherworldly items, " /**/
-        /**/ "etc. making them vastly more powerful compared to regular characters" /**/
-        /*/ ", often to the story's detriment" /**/ "." /**/
+        /*/ "voices or ethereal entities guiding them, " /**/
+    
+    /* COMBAT TYPES */
+        /**/ "absurd strength, " /* <Mashle> */
+        /**/ "overwhelming magical power, " /**/
+
+    /* NON-INNATE TYPES */
+        /**/ "godly or otherworldly items, " /**/
+    
+        /**/ "or (sometimes multiple) otherwise severely 'unfair' advantage(s)" /**/
+        /*/ ", made even worse if the character made no effort to obtain these on their own" /**/ "." /**/
         /**/ "\a\a" /**/
-        /**/ "Combat often has little to no true suspense, the protagonist sometimes being unaffected by being hit, only to OHKO their opponent." /**/
+        /**/ "This usually trivializes conflict, offering little to no true suspense because you just -know- their advantage is going to solve said conflict." /**/
+        /*/ "being virtually unaffected by damage, OHKOing their opponent." /**/
         /*/ "If they're not involved at the start of a battle, they may still rush in mid-battle and save the day anyway." /**/
     ;}
 
