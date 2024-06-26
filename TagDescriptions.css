@@ -203,18 +203,23 @@
 /*-----------*\
 |* Meta tags *|
 \*-----------*/
- 
-/* Bad Subs */ .data.tags span a[href*="Bad%20Subs"]::before { content: "The subtitles were subpar at my time of viewing. Either they were wrong, or were full of grammatical errors.";}
 
-/* I have nothing against people's political opinions, they are allowed to have them. It's when they start messing with entertainment media to push those views that this woke stuff truly ticks me off. */
-/* Woke */ .data.tags span a[href*="Woke"]::before { color: var(--badPO); content: /* Never seen this yet */
-        /**/ "The entire storyline has been made to appeal to racial/social/gender minorities."
-    ;}
-/* Wokewashed */ .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content:
-        /**/ "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
-        /**/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it, don't plan to ¯\_(ツ)_/¯) */ 
-        /**/ "If you prefer a more authentic experience, find the original source or a different adaptation." /**/
-    ;}
+/* ONGOING SERIES */ .data.tags span a[href*="ONGOING%20SERIES"]::before { content: "Cause my dumb ass is gonna forget and watch, then get mad when there's a not yet aired sequel.";}
+
+/* I'd imagine these would usually go paired */
+/* Bad Subs */ .data.tags span a[href*="Bad%20Subs"]::before { content: "The subtitles were subpar at my time of viewing. Either they were wrong, or were full of grammatical errors.";}
+/* Watched Dub */ .data.tags span a[href*="Watched%20Dub"]::before { content: "Instead of watching with subs as I usually do, I chose to go with the dubbed version.";}
+
+/* I have nothing against people's ideological and political opinions, they are allowed to have them. But I am not woke, and when they start messing with entertainment media to push their agenda, it truly ticks me off. */
+/* These two tags are commented out, I haven't used them and I sincerely hope I'll never have to, but if I do, I will make sure to rate it a 1 and note down the name right here. */
+/* Woke / .data.tags span a[href*="Woke"]::before { color: var(--badPO); content:
+        // "The entire storyline has been made to appeal to racial/social/gender minorities."
+    ;} */
+/* Wokewashed / .data.tags span a[href*="Wokewashed"]::before { color: var(--shitPO); content:
+        // "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
+        /*/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it, don't plan to ¯\_(ツ)_/¯) */ 
+        /*/ "If you prefer a more authentic experience, find the original source or a different adaptation."
+    ;}*/
 
 
 
@@ -223,24 +228,23 @@
 |*       To remind future me       *|
 \*---------------------------------*/
 
-/* Watch Habits */
-/* ONGOING SERIES */ .data.tags span a[href*="ONGOING%20SERIES"]::before { content: "Cause my dumb ass is gonna forget and watch, then get mad when there's a not yet aired sequel.";}
-
 /* Story */
 /* PO Bingeworthy */ .data.tags span a[href*="PO%20Bingeworthy"]::before { color: var(--gudPO); content: var(--PO) "This story was so consistently good that I bingewatched/read a sizeable portion in a single day.";}
 /* PO Dip */ .data.tags span a[href*="PO%20Dip"]::before { color: var(--badPO); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
 /* PO Downhill */ .data.tags span a[href*="PO%20Downhill"]::before, .data.tags span a[href*="PO%20DH"]::before { color: var(--shitPO); content: var(--PO) "The story slowly becomes worse the longer it goes on, it is still watchable/readable but it won't get better.";}
 /* PO Nosedive */ .data.tags span a[href*="PO%20Nosedive"]::before, .data.tags span a[href*="PO%20ND"]::before { color: var(--shitPO); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
-
 /* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shitPO); content: var(--PO) "\"The (S)how (M)ust (G)o (O)n!\"\aThere was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
 
-/* Bias */
-/* PO NMG */ .data.tags span a[href*="PO%20NMG"]::before { content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (N)ot (M)y (G)enre.";}
 
 /* Art */
 /* PO Good visuals */ .data.tags span a[href*="PO%20Good%20visuals"]::before { color: var(--gudPO); content: var(--PO) "The visuals have made a positive impression on me. Something about the way it was drawn struck me as neat enough to warrant future watches/reads.";}
 /* PO QUALITY */ .data.tags span a[href*="PO%20Shit%20visuals"]::before, .data.tags span a[href*="PO%20QUALITY"]::before { color: var(--shitPO); content: var(--PO) "The visuals are/became so noticeably bad that it's actually distracting... Bad or awkward anatomy/proportions, hiding details (e.g. hands) to avoid drawing them, overuse of certain scenes/drawings, etc.";}
 
+
+/* Bias */
+/* PO PSS (Please stop singing) */ .data.tags span a[href*="PO%20PSS"]::before { color: var(--badPO); content: var(--PO) "Some people like when characters break out in song... I am not one of those people, so (P)lease (S)top (S)inging.";}
+/* PO NMG (Not my genre) */ .data.tags span a[href*="PO%20NMG"]::before { color: var(--badPO); content: var(--PO) "This could be one of the best stories out there, but unfortunately it's simply (N)ot (M)y (G)enre.";}
+                                                                          
 
 
 /*------------*\
