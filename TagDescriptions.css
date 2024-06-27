@@ -33,7 +33,7 @@
 
 :root {
     --focus: "are the main focus of the story, make up the majority of the main cast, or are otherwise very noticeable. ";
-    --PO: "PERSONAL OPINION \a May not apply to you, unless you're future me. \a\a ";
+    --PO: "PERSONAL OPINION \a May not apply to you, unless you're future me.\a\a";
     --gud: green;
     --bad: orange;
     --shit: red;
@@ -44,11 +44,11 @@
 \*--------------*/
 
 /* Timeskip */ .data.tags span a[href*="Timeskip"]::before { content: 
-    /* Timeskips have straight up caused me to drop series, such as <Cyberpunk: Edgerunners> */
+    /* Timeskips have been the sole reason for me to drop series, such as <Cyberpunk: Edgerunners> */
         /**/ "This story contains a pretty significant timeskip, " /**/
         /**/ "the protagonist having met new characters, done significant things, and/or grown older in said timeskip, and then going from there. " /**/
         /**/ "In certain cases, this may change the entire dynamic of the rest of the story."
-        /**/ "\a(Prologues and epilogues do not count)" /**/
+        /**/ "\a""(Prologues and epilogues do not count)" /**/
         /*/ "\a\a" /**/
         /*/ "Personally, I hate timeskips." /**/
     ;}
@@ -99,7 +99,7 @@
         /**/ "The protagonist is considered (or designated) the hero, but they're not exactly heroic." /**/
         /**/ "Their true motivations tend to be morally questionable, and often they're okay with breaking a few laws to achieve their goals. " /**/
         /**/ "\a\a" /**/
-        /**/ "Example of an Anti-Hero \a L Lawliet from <Death Note> \a While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. L uses means such as kidnapping, not preventing murder, invasion of privacy and torture in the process." /**/ 
+        /*/ "Example of an Anti-Hero\a L Lawliet from <Death Note>\a While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. L uses means such as kidnapping, not preventing murder, invasion of privacy and torture in the process." /* Never seen Death Note so I can't confirm this*/ 
     ;}
 
 /* Heroes boring, boo */
@@ -216,7 +216,7 @@
         // "The entire storyline has been made to appeal to racial/social/gender minorities."
     ;} */
 /* Wokewashed / .data.tags span a[href*="Wokewashed"]::before { color: var(--shit); content:
-        // "Woke adaptation of non-woke original.\a\aThis adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
+        // "Woke adaptation of non-woke original.\a\a""This adaptation has been wokewashed to appeal to racial/social/gender minorities." /**/
         /*/ "You may find existing characters have been changed, or new characters have been shoehorned in, for no story-related reason." /* The Little Mermaid's 2023 live-action remake offends both of these (apparently, haven't seen it, don't plan to ¯\_(ツ)_/¯) */ 
         /*/ "If you prefer a more authentic experience, find the original source or a different adaptation."
     ;}*/
@@ -233,7 +233,7 @@
 /* PO Dip */ .data.tags span a[href*="PO%20Dip"]::before { color: var(--bad); content: var(--PO) "The story becomes a bit worse during this part, but it's still good.";} /* Rare, as dips often just go downhill */
 /* PO Downhill */ .data.tags span a[href*="PO%20Downhill"]::before, .data.tags span a[href*="PO%20DH"]::before { color: var(--shit); content: var(--PO) "The story slowly becomes worse the longer it goes on, it is still watchable/readable but it won't get better.";}
 /* PO Nosedive */ .data.tags span a[href*="PO%20Nosedive"]::before, .data.tags span a[href*="PO%20ND"]::before { color: var(--shit); content: var(--PO) "The story becomes noticeably worse from this point onward, you'd do yourself a favour not going past this point.";}
-/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shit); content: var(--PO) "\"The (S)how (M)ust (G)o (O)n!\"\aThere was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
+/* PO SMGO */ .data.tags span a[href*="PO%20SMGO"]::before { color: var(--shit); content: var(--PO) "\"The (S)how (M)ust (G)o (O)n!\"\a""There was a perfect moment for the story to end... Instead, the story keeps on going well past that point (downhill, in most cases).";}
 
 
 /* Art */
@@ -242,8 +242,8 @@
 
 
 /* Bias */
-/* PO PSS (Please stop singing) */ .data.tags span a[href*="PO%20PSS"]::before { color: var(--bad); content: var(--PO) "(P)lease (S)top (S)inging\a\aCharacters randomly start singing, either multiple times throughout the story, for no story-driving purposes, or sometimes both...";}
-/* PO NMG (Not my genre) */ .data.tags span a[href*="PO%20NMG"]::before { color: var(--bad); content: var(--PO) "(N)ot (M)y (G)enre\a\aThe story could be worth every bit of praise it may get and then some, but I'm sorry, I just don't get the appeal...";}
+/* PO PSS (Please stop singing) */ .data.tags span a[href*="PO%20PSS"]::before { color: var(--bad); content: var(--PO) "(P)lease (S)top (S)inging\a\a""Characters randomly start singing, either multiple times throughout the story, for no story-driving purposes, or sometimes both...";}
+/* PO NMG (Not my genre) */ .data.tags span a[href*="PO%20NMG"]::before { color: var(--bad); content: var(--PO) "(N)ot (M)y (G)enre\a\a""The story could be worth every bit of praise it may get and then some, but I'm sorry, I just don't get the appeal...";}
                                                                           
 
 
@@ -256,7 +256,7 @@
 /* Nudity Lite */ .data.tags span a[href*="Nudity%20Lite"]::before { content: "The story contains a single instance, maybe two, of nudity.";}
 /* Nudity + */ .data.tags span a[href*="Nudity%2B"]::before, .data.tags span a[href*="Nudity%20%2B"]::before { content: "The story contains nudity pretty much every chapter/episode.";}
 
-/* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\aUsually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
+/* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\a""Usually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
 
 /* Jaundiced Eye */ .data.tags span a[href*="Jaundiced%20Eye"]::before { content: "Some outside factor, like having a bad day, has caused me to view (part of) this story as insufferable... It's probably not as bad as I thought it looked, but all looks yellow to the jaundiced eye.";}
