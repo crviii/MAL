@@ -39,19 +39,28 @@
     --shit: red;
 }
 
+
+
 /*--------------*\
 |* Story Tropes *|
 \*--------------*/
 
 /* Timeskip */ .data.tags span a[href*="Timeskip"]::before { content: 
-    /* Timeskips have been the sole reason for me to drop series, such as <Cyberpunk: Edgerunners> */
+    /* I hate these, timeskips have been the sole reason for me to drop series (<Cyberpunk: Edgerunners>, for example) */
         /**/ "This story contains a pretty significant timeskip, " /**/
         /**/ "the protagonist having met new characters, done significant things, and/or grown older in said timeskip, and then going from there. " /**/
         /**/ "In certain cases, this may change the entire dynamic of the rest of the story."
         /**/ "\a""(Prologues and epilogues do not count)" /**/
-        /*/ "\a\a" /**/
-        /*/ "Personally, I hate timeskips." /**/
     ;}
+
+/* Open Ending */ .data.tags span a[href*="Open%20End"]::before { content: 
+    /* I personally tend to dislike these as they're basically half a timeskip */
+    /* <No Game No Life>'s anime adaptation does this decently, they accomplish a milestone of a long-term goal, it left me wanting more, unfortunately I'm not a LN reader... */
+    /* <Temple>'s feels like a cop-out, the story establishes a long-term goal they could've gotten a milestone for... instead, they have a finale introducing a somewhat minor problem and then solving that.. */
+        /**/ "The story ends in a way that leaves the viewer/reader to imagine how the characters' lives will go on from there. Will they live a happy life? Will they succeed in their long-term goal(s)?\a""We'll likely never know, because there doesn't appear to be a sequel..."
+    ;}
+
+
 
 /*--------------------*\
 |* Protagonist Tropes *|
@@ -66,7 +75,7 @@
     
     /* KNOWLEDGE TYPES */
         /**/ "knowledge of previous lives, " /* <Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru> */
-        /*/ "voices or ethereal entities guiding them, " /**/
+        /*/ "voices or \"system messages\" guiding them, " /**/
     
     /* COMBAT TYPES */
         /**/ "absurd strength, " /* <Mashle> */
@@ -103,6 +112,7 @@
     ;}
 
 /* Heroes boring, boo */
+
 
 
 /*------------------*\
