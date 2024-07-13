@@ -45,11 +45,17 @@
 |* Story Tropes *|
 \*--------------*/
 
+/* Episodic */ .data.tags span a[href*="Episodic"]::before { content: 
+    /* Whether I like these or not tends to depend on my mood.. */
+        /**/ "Each episode/chapter has a small, independent plot. Characters and settings are usually the same throughout, but there's little to no continuity between plots. " /**/
+        /**/ "\a\a""A well-known example of an episodic show in Western media would be <The Simpsons>." /**/
+    ;}
+
 /* Timeskip */ .data.tags span a[href*="Timeskip"]::before { content: 
     /* I hate these, timeskips have been the sole reason for me to drop series (<Cyberpunk: Edgerunners>, for example) */
         /**/ "This story contains a pretty significant timeskip, " /**/
         /**/ "the protagonist having met new characters, done significant things, and/or grown older in said timeskip, and then going from there. " /**/
-        /**/ "In certain cases, this may change the entire dynamic of the rest of the story."
+        /**/ "In certain cases, this may change the entire dynamic of the rest of the story." /**/
         /**/ "\a""(Prologues and epilogues do not count)" /**/
     ;}
 
