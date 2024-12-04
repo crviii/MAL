@@ -174,7 +174,7 @@
      * <Tensei Oujo to Tensai Reijou no Mahou Kakumei> doesn't count, the flashback where Anis regains her past life's memories was too brief, her first experiences aren't touched upon. */
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a\a" /**/
-        /**/ "Character(s) from a normal world are transferred or resurrected into a fantasy world. " /**/
+        /**/ "Character(s) from a normal world are transferred or reincarnated into a fantasy world. " /**/
         /*/ "Usually given some kind of blessing or skill early on. " /**/
     ;}
 /* Reverse Isekai */ .data.tags span a[href*="Reverse%20Isekai"]::before { content: 
@@ -187,11 +187,13 @@
     ;}
 /* Afterthought Isekai */ .data.tags span a[href*="Afterthought%20Isekai"]::before { content: 
     /* Isekais where the first world is so barely touched upon, the whole premise might as well be a "What if character just somehow knew about this ourworldly aspect?" scenario 
-     * <Okashi na Tensei> is a perfect example, all we get from Pastry's previous life is that he was a patissier and had the same color hair. This doesn't get addressed through flashback, he just 'knows' things. */
+     * <Okashi na Tensei> is a perfect example, all we get from Pastry's previous life is that he was a patissier and had the same color hair. This doesn't get addressed through flashback, he just 'knows' things. 
+     * <Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.> MC dies in her apartment, meets god, reincarnates. Anime feels the need to remind you MC's met god (not that she reincarnated). */
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a\a" /**/
-        /**/ "The premise of this story is supposed to be about character(s) from a normal world being transferred or resurrected into a fantasy world. " /**/
-        /**/ "But in these cases, the normal world or previous life(s) are touched upon so little, it almost seems like an afterthought to explain quirks or knowledge character(s) may have. " /**/
+        /**/ "The premise of this story is supposed to be about character(s) being transferred or reincarnated into a fantasy world. " /**/
+        /**/ "\a\a" /**/
+        /**/ "However, the implementation is so barebones or bad, the story would've been nearly the same without it. It might only serve to explain a quirk or knowledge character(s) may have. " /**/
     ;}
 /* CGDCT */ .data.tags span a[href*="CGDCT"]::before { content: 
         /*/ "\"Cute Girls Doing Cute Things\". " /**/
