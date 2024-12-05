@@ -37,6 +37,30 @@
     --gud: green;
     --bad: orange;
     --shit: red;
+
+    --cheat: "The protagonist has " /**/
+    /* GENERAL UTILITY TYPES */
+        /**/ "godly blessings, " /**/
+        /*/ "passive hypnosis, " /* <Rokudou no Onna-tachi> */
+    
+    /* KNOWLEDGE TYPES */
+        /**/ "knowledge of previous lives, " /* <Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru> */
+        /*/ "voices or \"system messages\" guiding them, " /**/
+    
+    /* COMBAT TYPES */
+        /**/ "absurd strength, " /* <Mashle> */
+        /**/ "overwhelming magical power, " /**/
+
+    /* NON-INNATE TYPES */
+        /**/ "godly or otherworldly items, " /**/
+    
+        /**/ "or (sometimes multiple) otherwise severely 'unfair' advantage(s)" /**/
+        /*/ "etc." /**/ "." /**/
+
+        /*/ "This usually trivializes conflict, offering little to no true suspense because you just -know- their advantage is going to solve said conflict." /**/
+        /*/ "being virtually unaffected by damage, OHKOing their opponent." /**/
+        /*/ "If they're not involved at the start of a battle, they may still rush in mid-battle and save the day anyway." /**/
+    ;
 }
 
 
@@ -71,33 +95,14 @@
 /*--------------------*\
 |* Protagonist Tropes *|
 \*--------------------*/
- 
-/* I've unconsciously stopped putting this tag, likely because cheat MC's have become so common that it doesn't even phase me anymore.. */
-/* Cheat */ .data.tags span a[href*="Cheat"]::before { color: var(--bad); content: 
-        /**/ "The protagonist has " /**/
-    
-    /* GENERAL UTILITY TYPES */
-        /**/ "godly blessings, " /**/
-        /*/ "passive hypnosis, " /* <Rokudou no Onna-tachi> */
-    
-    /* KNOWLEDGE TYPES */
-        /**/ "knowledge of previous lives, " /* <Loop 7-kaime no Akuyaku Reijou wa, Moto Tekikoku de Jiyuu Kimama na Hanayome Seikatsu wo Mankitsu suru> */
-        /*/ "voices or \"system messages\" guiding them, " /**/
-    
-    /* COMBAT TYPES */
-        /**/ "absurd strength, " /* <Mashle> */
-        /**/ "overwhelming magical power, " /**/
 
-    /* NON-INNATE TYPES */
-        /**/ "godly or otherworldly items, " /**/
-    
-        /**/ "or (sometimes multiple) otherwise severely 'unfair' advantage(s)" /**/
-        /*/ "etc." /**/
-        /**/ ", which they USUALLY get given right from the start, without any real effort on their end" /**/ "." /**/
-        /*/ "\a\a" /**/
-        /*/ "This usually trivializes conflict, offering little to no true suspense because you just -know- their advantage is going to solve said conflict." /**/
-        /*/ "being virtually unaffected by damage, OHKOing their opponent." /**/
-        /*/ "If they're not involved at the start of a battle, they may still rush in mid-battle and save the day anyway." /**/
+/* Cheat */ .data.tags span a[href*="Cheat"]::before { color: var(--bad); content: var(--cheat)
+        /**/ "\a\a" /**/
+        /**/ "What makes this trope worse is that the protagonist usually gets given these right from the start without any real effort on their end." /**/
+    ;}
+/* Cheat+ */ .data.tags span a[href*="Cheat%2B"]::before { content: var(--cheat) 
+        /**/ "\a\a" /**/
+        /**/ "While I usually dislike this trope, in this case it's been implemented well enough to stay enjoyable." /**/
     ;}
 
 /* Villain MC */ .data.tags span a[href*="Villain%20MC"]::before { content: 
