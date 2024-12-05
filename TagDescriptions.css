@@ -73,7 +73,7 @@
 \*--------------------*/
  
 /* I've unconsciously stopped putting this tag, likely because cheat MC's have become so common that it doesn't even phase me anymore.. */
-/* Cheat */ .data.tags span a[href*="Cheat"]::before { content: 
+/* Cheat */ .data.tags span a[href*="Cheat"]::before { color: var(--bad); content: 
         /**/ "The protagonist has " /**/
     
     /* GENERAL UTILITY TYPES */
@@ -92,9 +92,10 @@
         /**/ "godly or otherworldly items, " /**/
     
         /**/ "or (sometimes multiple) otherwise severely 'unfair' advantage(s)" /**/
-        /*/ ", made even worse if the character made no effort to obtain these on their own" /**/ "." /**/
-        /**/ "\a\a" /**/
-        /**/ "This usually trivializes conflict, offering little to no true suspense because you just -know- their advantage is going to solve said conflict." /**/
+        /*/ "etc." /**/
+        /**/ ", which they USUALLY get given right from the start, without any real effort on their end" /**/ "." /**/
+        /*/ "\a\a" /**/
+        /*/ "This usually trivializes conflict, offering little to no true suspense because you just -know- their advantage is going to solve said conflict." /**/
         /*/ "being virtually unaffected by damage, OHKOing their opponent." /**/
         /*/ "If they're not involved at the start of a battle, they may still rush in mid-battle and save the day anyway." /**/
     ;}
