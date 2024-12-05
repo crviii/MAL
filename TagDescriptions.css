@@ -98,11 +98,16 @@
 
 /* Cheat */ .data.tags span a[href*="Cheat"]::before { color: var(--bad); content: var(--cheat)
         /**/ "\a\a" /**/
-        /**/ "What makes this trope worse is that the protagonist usually gets given these right from the start without any real effort on their end." /**/
+        /**/ "What makes this trope worse is that the protagonist usually gets given or already has these cheats from the start, and usually without any real effort on their end." /**/
     ;}
-/* Cheat+ */ .data.tags span a[href*="Cheat%2B"]::before { content: var(--cheat) 
+/* Cheat+ */ .data.tags span a[href*="Cheat%2B"]::before { color: #fff; content: var(--cheat) 
         /**/ "\a\a" /**/
-        /**/ "While I usually dislike this trope, in this case it's been implemented well enough to stay enjoyable." /**/
+        /**/ "While I usually dislike this trope, in this case it's implemented well enough for it be enjoyable or even funny. " /**/
+        /*/ "(" /**/
+        /*/ "severe drawback(s), " /* <Nozomanu Fushi no Boukensha> */
+        /*/ "not THE strongest, " /**/
+        /*/ "not unique, " /* <Tatoeba Last Dungeon Mae no Mura no Shounen ga Joban no Machi de Kurasu Youna Monogatari> */
+        /*/ "etc.)" /**/
     ;}
 
 /* Villain MC */ .data.tags span a[href*="Villain%20MC"]::before { content: 
