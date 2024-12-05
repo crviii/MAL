@@ -192,10 +192,10 @@
         /**/ "Character(s) from a fantasy world are transferred to a normal world. " /**/
         /*/ "They may or may not lose their their magical powers in the process. " /**/
     ;}
-/* Afterthought Isekai */ .data.tags span a[href*="Afterthought%20Isekai"]::before { content: 
+/* Afterthought Isekai */ .data.tags span a[href*="Afterthought%20Isekai"]::before { color: var(--bad); content: 
     /* Isekais where the first world is so barely touched upon, the whole premise might as well be a "What if character just somehow knew about this ourworldly aspect?" scenario 
      * <Okashi na Tensei> is a perfect example, all we get from Pastry's previous life is that he was a patissier and had the same color hair. This doesn't get addressed through flashback, he just 'knows' things. 
-     * <Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.> MC dies in her apartment, meets god, reincarnates. Anime feels the need to remind you MC's met god (not that she reincarnated). */
+     * <Isekai de Mofumofu Nadenade suru Tame ni Ganbattemasu.> MC dies in her apartment, meets god, reincarnates. The anime even feels the need to occasionally remind you MC's met god. */
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a\a" /**/
         /**/ "The premise of this story is supposed to be about character(s) being transferred or reincarnated into a fantasy world. " /**/
