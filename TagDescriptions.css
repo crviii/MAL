@@ -173,7 +173,7 @@
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
     /* <Kobayashi-san Chi no Maid Dragon> has multiple characters like this. Human appearance, but with dragon horns, tails, behaviours and powers. Their dragon forms are technically Talking Animals, too. */
-        /**/ "Kemonomimi (獣耳): \"Animal Ears\".""\a""Humans with miscellaneous animal appendages (ears, horns, tail) and often some of their behaviours and/or powers. " /**/
+        /**/ "Kemonomimi (獣耳): \"Animal Ears\".""\a""Humans with miscellaneous animal appendages (ears, horns, tail) and often some of their traits. " /**/
         /*/ "\a\a" /**/
         /**/ "Kemonomimi " var(--focus) /**/
     ;}
