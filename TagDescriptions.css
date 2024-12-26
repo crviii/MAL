@@ -125,10 +125,8 @@
 
 /* Anti-Hero MC */ .data.tags span a[href*="Anti-Hero%20MC"]::before { content:
     /* https://tvtropes.org/pmwiki/pmwiki.php/Main/AntiHero */
-        /**/ "The protagonist is considered (or designated) the hero, but they're not exactly heroic." /**/
+        /**/ "The protagonist is considered (or designated) the hero, but they're not exactly heroic. " /**/
         /**/ "Their true motivations tend to be morally questionable, and often they're okay with breaking a few laws to achieve their goals. " /**/
-        /**/ "\a\a" /**/
-        /*/ "Example of an Anti-Hero\a L Lawliet from <Death Note>\a While L does try to capture Kira, his main motivation is because he sees Kira as a challenge. L uses means such as kidnapping, not preventing murder, invasion of privacy and torture in the process." /* Never seen Death Note so I can't confirm this*/ 
     ;}
 
 /* Heroes boring, boo */
