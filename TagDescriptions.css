@@ -34,9 +34,9 @@
 :root {
     --focus: "are the main focus of the story, make up the majority of the main cast, or are otherwise very noticeable. ";
     --PO: "PERSONAL OPINION \a May not apply to you, unless you're future me.\a\a";
-    --gud: green;
-    --bad: orange;
-    --shit: red;
+    --gud: #6C6;
+    --bad: #C82;
+    --shit: #C00;
 
     --cheat: "The protagonist has " /**/
     /* GENERAL UTILITY TYPES */
@@ -191,6 +191,10 @@
         /*/ "\a\a" /**/
         /**/ "Character(s) from a normal world are transferred or reincarnated into a fantasy world. " /**/
         /*/ "Usually given some kind of blessing or skill early on. " /**/
+    ;}
+/* Isekai */ .data.tags span a[href*="Time%20Rewind"]::before { content: 
+        /**/ "Character(s) are rewound to a certain point in the past, but keep their memories of the future." /**/
+        /*/ "They'll usually go and make drastically different choices to avoid some terrible fate befalling them or the world around them." /*/
     ;}
 /* Reverse Isekai */ .data.tags span a[href*="Reverse%20Isekai"]::before { content: 
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
