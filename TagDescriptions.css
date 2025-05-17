@@ -92,10 +92,9 @@
     ;}
 
 /* Yep That's Me */  .data.tags span a[href*="Yep%20That%27s%20Me"]::before { content: 
-    /* https://tvtropes.org/pmwiki/pmwiki.php/Main/HowWeGotHere */
+    /* https://tvtropes.org/pmwiki/pmwiki.php/Main/HowWeGotHere and https://tvtropes.org/pmwiki/pmwiki.php/Main/ActionPrologue */
         /**/ "\"You're probably wondering how I ended up in this situation..\"""\a\a" /**/
-        /**/ "This story starts by showing off some precarious situation that's actually in the middle of the first episode/chapter or even the middle of the entire story, to then immediately end the segment in a cliffhanger and 'flashback' to the actual beginning of the episode." /**/
-        /**/ var(--notadealbreaker)
+        /**/ "This story starts by showing off some precarious or action-packed situation that's actually in the middle of the first episode/chapter or even the middle of the entire story, to then immediately end the segment in a cliffhanger and 'flashback' to the actual beginning of the episode." /**/
 
 /*--------------------*\
 |* Protagonist Tropes *|
