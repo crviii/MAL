@@ -34,7 +34,7 @@
 :root {
     --focus: "are the main focus of the story, make up the majority of the main cast, or are otherwise very noticeable.";
     --PO: "PERSONAL OPINION""\a""May not apply to you, unless you're future me.""\a\a";
-    --notadealbreaker: "\a\a""However, this isn't necessarily a dealbreaker, I could still enjoy these stories."
+    --notadealbreaker: "\a\a""I personally don't like this trope, but it isn't necessarily a dealbreaker, I could still enjoy these stories."
     --gud: #6C6;
     --bad: #C82;
     --shit: #C00;
@@ -88,10 +88,14 @@
     /* I personally tend to dislike these as they're basically half a timeskip */
     /* <No Game No Life>'s anime adaptation does this decently, they accomplish a milestone of a long-term goal, it left me wanting more, unfortunately I'm not a LN reader... */
     /* <Temple>'s feels like a cop-out, the story establishes a long-term goal they could've gotten a milestone for... instead, they have a finale introducing a somewhat minor problem and then solving that.. */
-        /**/ "The story ends in a way that leaves the viewer/reader to imagine how the characters' lives will go on from there. Will they live a happy life? Will they succeed in their long-term goal(s)?""\a""We'll likely never know, because there doesn't appear to be a sequel..."
+        /**/ "The story ends in a way that leaves the viewer/reader to imagine how the characters' lives will go on from there. Will they live a happy life? Will they succeed in their long-term goal(s)?""\a""We'll likely never know, because there doesn't appear to be a sequel..." /**/
     ;}
 
-
+/* Yep That's Me */  .data.tags span a[href*="Yep%20That%27s%20Me"]::before { content: 
+    /* https://tvtropes.org/pmwiki/pmwiki.php/Main/HowWeGotHere */
+        /**/ "\"You're probably wondering how I ended up in this situation..\"""\a\a" /**/
+        /**/ "This story starts by showing off some precarious situation that's actually in the middle of the first episode/chapter or even the middle of the entire story, to then immediately end the segment in a cliffhanger and 'flashback' to the actual beginning of the episode." /**/
+        /**/ var(--notadealbreaker)
 
 /*--------------------*\
 |* Protagonist Tropes *|
