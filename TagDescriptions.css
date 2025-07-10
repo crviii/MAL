@@ -237,7 +237,10 @@
         /**/ "Whenever character(s) are talking about food, often the cooking process and/or the flavour will be explained in detail" /**/
         /**/ ", encouraging the viewer to try it themselves" /**/ "." /**/
     ;}
-
+/* Kicked Out */ .data.tags span a[href*="Kicked%20Out"]::before { content: 
+        /**/ "Character(s) are kicked out of their party/country/other, usually because they are 'useless'." /**/
+        /**/ "However, they usually turn out fine while the party falls apart without them." /**/
+    ;}
 
 
 /*-----------*\
