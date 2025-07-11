@@ -143,7 +143,7 @@
 \*------------------*/
  
 /* Loli */ .data.tags span a[href*="Loli"]::before { content:
-   /* Toddlers are not loli. */
+   /* Toddlers are not loli. If you're into toddlers, seriously, get help. */
         /*/ "Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
         /*/ "\a\a" /**/
         /**/ "Loli " var(--focus) /**/
@@ -155,28 +155,31 @@
     ;}  
 
 /* Talking Animal */ .data.tags span a[href*="Talking%20Animal"]::before { content: 
-   /* If the animal's body anatomy has been significantly changed to more resemble a human's, it's an Anthro.
-    * <Sailor Moon>'s Luna is a Talking Animal, they look almost exactly like an animal except for the humanized face.
-    * <Fairy Tail>'s Happy is an Anthro, they have humanized body anatomy and walk on two legs. */
-        /*/ "Talking Animal: It's an animal in every way, but it talks." /**/
+   /* With Talking Animal, you take an animal/creature, and make it talk and maybe give it more human expressions. That's it. If you humanize it it's an anthro.
+    * <Sailor Moon>'s Luna is a Talking Animal, they look almost exactly like an animal except for the humanized face and expressions. */
+        /**/ "Talking Animal: It's an animal in (almost) every way, but it talks." /**/
         /*/ "\a\a" /**/
         /**/ "Talking animals " var(--focus) /**/
     ;}
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
-        /*/ "Anthro: Humanized creature or object. " /**/
+    /* With Anthro, you take an animal/creature/object as a base and humanize it a little or a lot.
+    /* <Nokemono-tachi no Yoru>'s main cast demons are good examples of a lot of humanization. There's clear humanoid anatomy, they're human scale, and they wear proper humanoid clothes.
+     * <Fairy Tail>'s Happy is a prime example of little humanization, there's no real human anatomy, they're cat scale, and don't wear clothes. But they have two arms and two legs as opposed to just 4 legs. */
+        /**/ "Anthro: Humanized creature or object. " /**/
         /*/ "\a\a" /**/
         /**/ "Anthros " var(--focus) /**/
     ;}
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
-   /* Different from an anthro, in that instead of being an animal that looks like a human, it's a human, with some part animal.
-    * <Monster Musume no Iru Nichijou> is all about Monster Girls and the characters serve as a perfect examples of monster girls. */
-        /*/ "Hybrid between a human girl, and a (mythological) animal/creature. " /**/
+    /* With Monster Girls, You take a human, and replace some parts to an animal's. If you 'cut away' the animal part, you'd only have about half a human left.
+     * <Monster Musume no Iru Nichijou> is all about Monster Girls and the main cast serves as a good example of monster girls. */
+        /**/ "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. They tend to have entire body parts replaced." /**/
         /*/ "\a\a" /**/
         /**/ "Monster girls " var(--focus) /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
-    /* <Kobayashi-san Chi no Maid Dragon> has multiple characters like this. Human appearance, but with dragon horns, tails, behaviours and powers. Their dragon forms are technically Talking Animals, too. */
-        /**/ "Kemonomimi (獣耳): \"Animal Ears\".""\a""Humans with miscellaneous animal appendages (ears, horns, tail) and often some of their traits. " /**/
+    /* With Kemonomimi, you'd take a human, and add animal parts. You're usually able to 'cut away' the animal parts and still have a full human.
+     * <Kobayashi-san Chi no Maid Dragon> has multiple characters like this. Human appearance, but with added dragon horns, tails, behaviours and powers. Their dragon forms are technically Talking Animals, too. */
+        /**/ "Kemonomimi (獣耳): \"Animal Ears\".""\a""Humans with miscellaneous animal appendages (ears, horns, tail) and often some of their traits." /**/
         /*/ "\a\a" /**/
         /**/ "Kemonomimi " var(--focus) /**/
     ;}
