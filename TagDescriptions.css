@@ -95,11 +95,11 @@
     /* <Around 40 Otoko no Isekai Tsuuhan> has Trash Harem Type U+ and is the reason I made this tag.
      *   Trash Harem because an innkeeper, two beastwomen, a married noblewoman, a flipping queen and his adoptive child all want a piece. (Merchant's daughter gets a pass, saved after being kidnapped by bandits.)
      *   Type U because the MC is middle-aged (he was mistaken as the merchant daughter's father in ep8, 19:24) on top of being unremarkable.
-     *   Type + because he's (implies to have) bedded the innkeeper, the merchant's daughter, one of the beastwomen, and one of the princess' maids WHILE the princess watched. */
-        /**/ "This story has the opposite sex throwing themselves at the MC. They don't care whether they're already married, different species, different status, or too young to be throwing themselves." /**/
-        /**/ "\a\a""This is often detrimental to the story, especially if the tag has one or more of the typings below." /**/
-        /**/ "\a""Type U: The MC is unremarkable, unattractive, and/or undeserving." /**/
-        /**/ "\a""Type +: The MC actually beds at least a few of them willingly. Only one if MC's married." /**/
+     *   Type + because he's (implied to have) bedded the innkeeper, the merchant's daughter, one of the beastwomen, and one of the princess' maids WHILE the princess watched. */
+        /**/ "This story has the opposite sex throwing themselves at the MC for whatever reason or lack thereof. These suitors don't care whether the MC or they themselves are already married, of different species, of different social status, or too young to realistically consider this." /**/
+        /**/ "\a\a""This is usually detrimental to the story, especially if the tag has one or more of the suffixes below." /**/
+        /**/ "\a""Suffix U""\a""MC is unremarkable and/or undeserving, in both looks and actions." /**/
+        /**/ "\a""Suffix +""\a""MC reciprocates more than one suitor, be it through marriage or bedding them." /**/
     ;}
 
 /* Yep That's Me */ .data.tags span a[href*="Yep%20That's%20Me"]::before { content: /* For some reason you DON'T encode the apostrophe */
