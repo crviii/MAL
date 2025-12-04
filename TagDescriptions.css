@@ -212,10 +212,6 @@
         /**/ "Character(s) from a normal world are transferred or reincarnated into a fantasy world. " /**/
         /*/ "Usually given some kind of blessing or skill early on. " /**/
     ;}
-/* Time Rewind */ .data.tags span a[href*="Time%20Rewind"]::before { content: 
-        /**/ "Character(s) are rewound to a certain point in the past, but keep their memories of the future." /**/
-        /*/ "They'll usually go and make drastically different choices to avoid some terrible fate befalling them or the world around them." /*/
-    ;}
 /* Reverse Isekai */ .data.tags span a[href*="Reverse%20Isekai"]::before { content: 
         /*/ "Isekai (異世界): \"different world\" or \"otherworld\". " /**/
         /*/ "\a" /**/
@@ -234,6 +230,11 @@
         /**/ "\a\a" /**/
         /**/ "However, the implementation is so barebones or bad, the story would've been nearly the same without it. It might only serve to explain a quirk or knowledge character(s) may have. " /**/
     ;}
+/* Time Rewind */ .data.tags span a[href*="Time%20Rewind"]::before { content: 
+        /**/ "Character(s) are rewound to a certain point in the past, but keep their memories of the future." /**/
+        /*/ "They'll usually go and make drastically different choices to avoid some terrible fate befalling them or the world around them." /*/
+    ;}
+
 /* CGDCT */ .data.tags span a[href*="CGDCT"]::before { content: 
         /*/ "\"Cute Girls Doing Cute Things\". " /**/
         /*/ "\a" /**/
@@ -248,12 +249,18 @@
         /*/ "I have no idea" /**/
         /*/ "what to put here" /**/
     ;}
+/* Villainess */ .data.tags span a[href*="Villainess"]::before { content: 
+    /* I watched quite a few of these before I started tagging them, sad! */
+        /**/ "The protagonist is a villainess. Usually implemented through resurrecting into an otome game." /**/
+    ;}
+
 /* Food */ .data.tags span a[href*="Food"]::before { content: 
         /**/ "The story is mainly about cooking or eating food. " /**/
         /**/ "\a\a" /**/
         /**/ "Whenever character(s) are talking about food, often the cooking process and/or the flavour will be explained in detail" /**/
         /**/ ", encouraging the viewer to try it themselves" /**/ "." /**/
     ;}
+
 /* Kicked Out */ .data.tags span a[href*="Kicked%20Out"]::before { content: 
         /**/ "Character(s) are kicked out of their party/country/other, usually because they are 'useless'." /**/
         /**/ "However, they usually turn out fine while the party falls apart without them." /**/
