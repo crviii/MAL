@@ -32,9 +32,9 @@
 
 
 :root {
-    --focus: "are the main focus of the story, make up the majority of the main cast, or are otherwise very noticeable.";
+    --focal: "are prominent in the story — they're integral to the plot, dominate the cast roster, or both.";
     --PO: "PERSONAL OPINION""\a""May not apply to you, unless you're future me.""\a\a";
-    --notadealbreaker: "\a\a""I personally don't like this trope, but it isn't necessarily a dealbreaker, I could still enjoy these stories.";
+    --notadropper: "\a\a""By itself, this isn't worth dropping the story over. I could still enjoy it, if there's other things to make up for this.";
     --gud: #6C6;
     --bad: #C82;
     --shit: #C00;
@@ -84,10 +84,10 @@
     ;}
 
 /* Timeskip */ .data.tags span a[href*="Timeskip"]::before { content: 
-    /* I hate these, timeskips have been the sole reason for me to drop series (<Cyberpunk: Edgerunners>, for example) */
-        /**/ "This story contains a pretty significant timeskip, " /**/
-        /**/ "the protagonist having met new characters, done significant things, and/or grown older in said timeskip, and then going from there. " /**/
-        /**/ "In certain cases, this may change the entire dynamic of the rest of the story." /**/
+    /* I usually hate these, timeskips have been the sole reason for me to drop series such as <Cyberpunk: Edgerunners>. */
+        /**/ "This story contains a noticeable timeskip, which in my opinion is . " /**/
+        /**/ "\a\a""Usually you'd skip forward a month or two, simply to move the story along at a reasonable pace like your slice-of-lifes. Significant plotlines have been skipped, characters are swapped in and out of the roster or switched allegiances, and the story just... goes from there. " /**/
+        /**/ "In certain cases, this may even change the entire dynamic of the rest of the story." /**/
         /**/ "\a""(Prologues and epilogues do not count)" /**/
     ;}
 
@@ -104,8 +104,9 @@
 
 /* Yep That's Me */ .data.tags span a[href*="Yep%20That's%20Me"]::before { content: /* For some reason you DON'T encode the apostrophe */
     /* https://tvtropes.org/pmwiki/pmwiki.php/Main/HowWeGotHere and https://tvtropes.org/pmwiki/pmwiki.php/Main/ActionPrologue */
+    /* <Seijo no Maryoku wa Bannou desu Season 2> has this, teasing an encounter that doesn't happen until the latter half of the season.
         /**/ "\"You're probably wondering how I ended up in this situation..\"""\a\a" /**/
-        /**/ "This story starts by showing off some precarious or action-packed situation that's actually in the middle of the first episode/chapter or even the middle of the entire story, to then immediately end the segment in a cliffhanger and 'flashback' to the actual beginning of the episode." /**/
+        /**/ "This story starts by showing off some emotional, action-packed or otherwise intense situation. However, that situation ends up just being a teaser for an event later in the episode/chapter or sometimes even the far future. It then ends the scene on a cliffhanger, and goes back to start the episode/chapter in earnest." /**/
     ;}
 
 
@@ -155,25 +156,26 @@
 /*------------------*\
 |* Character Tropes *|
 \*------------------*/
- 
+
+   /* Loli and Shota can be cute, maybe even a guilty pleasure to some, but keep your gushing within the 2D realm.
+    * Toddlers do not count as loli or shota. (If you're into toddlers, 2D or 3D, you need to get therapy, fr). */
 /* Loli */ .data.tags span a[href*="Loli"]::before { content:
-   /* Toddlers are not loli. If you're into toddlers, seriously, get help. */
         /*/ "Loli (ロリ): Female character with the appearance of a pre-pubescent girl (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Loli " var(--focus) /**/
+        /**/ "Loli " var(--focal) /**/
     ;} 
 /* Shota */ .data.tags span a[href*="Shota"]::before { content: 
         /*/ "Shota (ショタ): Male character with the appearance of a pre-pubescent boy (regardless of age). " /**/
         /*/ "\a\a" /**/
-        /**/ "Shota " var(--focus) /**/
+        /**/ "Shota " var(--focal) /**/
     ;}  
 
 /* Talking Animal */ .data.tags span a[href*="Talking%20Animal"]::before { content: 
    /* With Talking Animal, you take an animal/creature, and make it talk and maybe give it more human expressions. That's it. If you humanize it it's an anthro.
     * <Sailor Moon>'s Luna is a Talking Animal, they look almost exactly like an animal except for the humanized face and expressions. */
-        /**/ "Talking Animal: It's an animal in (almost) every way, but it talks." /**/
+        /**/ "Talking Animal: It's an animal in (almost) every way, but it talks. " /**/
         /*/ "\a\a" /**/
-        /**/ "Talking animals " var(--focus) /**/
+        /**/ "Talking animals " var(--focal) /**/
     ;}
 /* Anthro */ .data.tags span a[href*="Anthro"]::before { content: 
     /* With Anthro, you take an animal/creature/object as a base and humanize it a little or a lot.
@@ -181,21 +183,21 @@
      * <Fairy Tail>'s Happy is a prime example of little humanization, there's no real human anatomy, they're cat scale, and don't wear clothes. But they have two arms and two legs as opposed to just 4 legs. */
         /**/ "Anthro: Humanized creature or object. " /**/
         /*/ "\a\a" /**/
-        /**/ "Anthros " var(--focus) /**/
+        /**/ "Anthros " var(--focal) /**/
     ;}
 /* Monster Girl */ .data.tags span a[href*="Monster%20Girl"]::before { content: 
     /* With Monster Girls, You take a human, and replace some parts to an animal's. If you 'cut away' the animal part, you'd only have about half a human left.
      * <Monster Musume no Iru Nichijou> is all about Monster Girls and the main cast serves as a good example of monster girls. */
-        /**/ "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. They tend to have entire body parts replaced." /**/
+        /**/ "Monster Girl: Hybrid between a human girl, and a (mythological) animal/creature. They tend to have entire body parts replaced. " /**/
         /*/ "\a\a" /**/
-        /**/ "Monster girls " var(--focus) /**/
+        /**/ "Monster girls " var(--focal) /**/
     ;}
 /* Kemonomimi */ .data.tags span a[href*="Kemonomimi"]::before { content: 
     /* With Kemonomimi, you'd take a human, and add animal parts. You're usually able to 'cut away' the animal parts and still have a full human.
      * <Kobayashi-san Chi no Maid Dragon> has multiple characters like this. Human appearance, but with added dragon horns, tails, behaviours and powers. Their dragon forms are technically Talking Animals, too. */
-        /**/ "Kemonomimi (獣耳): \"Animal Ears\".""\a""Humans with miscellaneous animal appendages (ears, horns, tail) and often some of their traits." /**/
+        /**/ "Kemonomimi (獣耳): \"Animal Ears\".""\a""Humans with miscellaneous animal appendages (ears, horns, tail) and often some of their traits. " /**/
         /*/ "\a\a" /**/
-        /**/ "Kemonomimi " var(--focus) /**/
+        /**/ "Kemonomimi " var(--focal) /**/
     ;}
 
 
@@ -310,8 +312,8 @@
 
 
 /* Bias */
-/* PO PSS (Please stop singing) */ .data.tags span a[href*="PO%20PSS"]::before { color: var(--bad); content: var(--PO) "(P)lease (S)top (S)inging\a\a""Characters randomly start singing, sometimes multiple times throughout the story, sometimes for no story-driving purposes, sometimes both..." var(--notadealbreaker);}
-/* PO NMG (Not my genre) */ .data.tags span a[href*="PO%20NMG"]::before { color: var(--bad); content: var(--PO) "(N)ot (M)y (G)enre\a\a""The story could be worth every bit of praise it might get and then some, but I just don't get the appeal..." var(--notadealbreaker);}
+/* PO PSS (Please stop singing) */ .data.tags span a[href*="PO%20PSS"]::before { color: var(--bad); content: var(--PO) "(P)lease (S)top (S)inging""\a\a""Characters randomly start singing, sometimes multiple times throughout the story, sometimes for no story-driving purposes, sometimes both..." var(--notadropper);}
+/* PO NMG (Not my genre) */ .data.tags span a[href*="PO%20NMG"]::before { color: var(--bad); content: var(--PO) "(N)ot (M)y (G)enre""\a\a""The story could be worth every bit of praise it might get and then some, but I just don't get the appeal..." var(--notadropper);}
                                                                           
 
 
@@ -327,5 +329,7 @@
 /* Uncen? */ .data.tags span a[href*="Uncen%3F"]::before { content: "Stories with an uncensored version that have the audience wondering what the difference is.\a\a""Usually this ends up being an extra scene or a slightly smaller censor, sometimes with entire episodes not having changed at all.";}
 
 
+/* WDYM (Genre) */ .data.tags span a[href*="WDYM"]::before { content: "(W)hat (D)o (Y)ou (M)ean""\a\a""MAL listed this entry as containing this. I can't see (or just barely see) why, though.";}
+   /* <Konohana Kitan> has Girls Love amongst its tags. Sure, one of the girls is into another girl, but they haven't kissed or anything... (Watch me have to come back and correct myself because I'm only at ep5 and writing this at 4 in the morning :sob:)
 /* Jaundiced Eye */ .data.tags span a[href*="Jaundiced%20Eye"]::before { content: "Some outside factor, like having a bad day, has caused me to view (part of) this story as insufferable... It's probably not as bad as I thought it looked, but all looks yellow to the jaundiced eye.";}
 
